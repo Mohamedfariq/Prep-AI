@@ -1,0 +1,7 @@
+metric,value
+rows,18669
+columns,18
+exact_duplicate_rows,0
+rows_with_empty_topics,1469
+unique_topics,173
+cleaned_rows,18669

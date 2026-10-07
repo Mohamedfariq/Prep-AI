@@ -1,0 +1,492 @@
+{
+  "method": "TF-IDF on question titles followed by K-Means clustering",
+  "manual_cluster_names_used": false,
+  "unique_questions_clustered": 3422,
+  "tfidf_vocabulary_size": 1000,
+  "candidate_k_values": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "selected_k": 8,
+  "selection_metric": "minimum Davies-Bouldin Index",
+  "evaluation": [
+    {
+      "k": 4,
+      "davies_bouldin": 5.854519,
+      "sample_silhouette": 0.010665
+    },
+    {
+      "k": 5,
+      "davies_bouldin": 5.326654,
+      "sample_silhouette": 0.00986
+    },
+    {
+      "k": 6,
+      "davies_bouldin": 5.681415,
+      "sample_silhouette": 0.014765
+    },
+    {
+      "k": 7,
+      "davies_bouldin": 4.999441,
+      "sample_silhouette": 0.014917
+    },
+    {
+      "k": 8,
+      "davies_bouldin": 2.708638,
+      "sample_silhouette": 0.000963
+    },
+    {
+      "k": 9,
+      "davies_bouldin": 5.225635,
+      "sample_silhouette": 0.022536
+    },
+    {
+      "k": 10,
+      "davies_bouldin": 4.784832,
+      "sample_silhouette": 0.017815
+    },
+    {
+      "k": 11,
+      "davies_bouldin": 5.044423,
+      "sample_silhouette": 0.023102
+    },
+    {
+      "k": 12,
+      "davies_bouldin": 4.880945,
+      "sample_silhouette": 0.023873
+    },
+    {
+      "k": 13,
+      "davies_bouldin": 4.595322,
+      "sample_silhouette": 0.021056
+    },
+    {
+      "k": 14,
+      "davies_bouldin": 3.266891,
+      "sample_silhouette": 0.002086
+    }
+  ],
+  "cluster_summaries": {
+    "0": {
+      "question_count": 1,
+      "company_question_rows": 2,
+      "difficulty_distribution": {
+        "Medium": 2
+      },
+      "avg_frequency": 19.55,
+      "dominant_existing_topics": [
+        {
+          "topic": "Array",
+          "count": 2
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 2
+        },
+        {
+          "topic": "Tree",
+          "count": 2
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 2
+        }
+      ],
+      "sample_titles": [
+        "Minimum Increments to Equalize Leaf Paths",
+        "Minimum Increments to Equalize Leaf Paths"
+      ]
+    },
+    "1": {
+      "question_count": 2955,
+      "company_question_rows": 16767,
+      "difficulty_distribution": {
+        "Medium": 9603,
+        "Hard": 3123,
+        "Easy": 4041
+      },
+      "avg_frequency": 49.7431,
+      "dominant_existing_topics": [
+        {
+          "topic": "Array",
+          "count": 8795
+        },
+        {
+          "topic": "String",
+          "count": 3915
+        },
+        {
+          "topic": "Hash Table",
+          "count": 3621
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 2594
+        },
+        {
+          "topic": "Sorting",
+          "count": 2300
+        },
+        {
+          "topic": "Math",
+          "count": 1928
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 1676
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 1657
+        },
+        {
+          "topic": "Binary Search",
+          "count": 1485
+        },
+        {
+          "topic": "Greedy",
+          "count": 1464
+        }
+      ],
+      "sample_titles": [
+        "Separate Black and White Balls",
+        "Binary Tree Cameras",
+        "Check If Array Pairs Are Divisible by k",
+        "Count Univalue Subtrees",
+        "Filling Bookcase Shelves",
+        "Find the Student that Will Replace the Chalk",
+        "Minimum Operations to Reduce an Integer to 0",
+        "Random Pick with Weight"
+      ]
+    },
+    "2": {
+      "question_count": 2,
+      "company_question_rows": 19,
+      "difficulty_distribution": {
+        "Easy": 18,
+        "Hard": 1
+      },
+      "avg_frequency": 58.2632,
+      "dominant_existing_topics": [
+        {
+          "topic": "String",
+          "count": 17
+        },
+        {
+          "topic": "String Matching",
+          "count": 17
+        },
+        {
+          "topic": "Knuth\u2013Morris\u2013Pratt Algorithm",
+          "count": 17
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 16
+        },
+        {
+          "topic": "Z Algorithm",
+          "count": 16
+        },
+        {
+          "topic": "Boyer\u2013Moore String-Search Algorithm",
+          "count": 16
+        }
+      ],
+      "sample_titles": [
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Index of the First Occurrence in a String",
+        "Find the Occurrence of First Almost Equal Substring"
+      ]
+    },
+    "3": {
+      "question_count": 6,
+      "company_question_rows": 14,
+      "difficulty_distribution": {
+        "Medium": 12,
+        "Hard": 2
+      },
+      "avg_frequency": 53.2071,
+      "dominant_existing_topics": [
+        {
+          "topic": "Array",
+          "count": 12
+        },
+        {
+          "topic": "Sorting",
+          "count": 10
+        },
+        {
+          "topic": "Hash Table",
+          "count": 4
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 4
+        },
+        {
+          "topic": "Graph Theory",
+          "count": 4
+        },
+        {
+          "topic": "Two Pointers",
+          "count": 3
+        },
+        {
+          "topic": "Binary Search",
+          "count": 3
+        },
+        {
+          "topic": "Union-Find",
+          "count": 3
+        },
+        {
+          "topic": "Simulation",
+          "count": 2
+        },
+        {
+          "topic": "Database",
+          "count": 2
+        }
+      ],
+      "sample_titles": [
+        "Friends Of Appropriate Ages",
+        "Get Watched Videos by Your Friends",
+        "Count Unhappy Friends",
+        "Get Watched Videos by Your Friends",
+        "The Earliest Moment When Everyone Become Friends",
+        "Count Unhappy Friends",
+        "The Earliest Moment When Everyone Become Friends",
+        "Get Watched Videos by Your Friends"
+      ]
+    },
+    "4": {
+      "question_count": 1,
+      "company_question_rows": 1,
+      "difficulty_distribution": {
+        "Medium": 1
+      },
+      "avg_frequency": 25.0,
+      "dominant_existing_topics": [
+        {
+          "topic": "Hash Table",
+          "count": 1
+        },
+        {
+          "topic": "String",
+          "count": 1
+        },
+        {
+          "topic": "Backtracking",
+          "count": 1
+        },
+        {
+          "topic": "Enumeration",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "Next Closest Time"
+      ]
+    },
+    "5": {
+      "question_count": 439,
+      "company_question_rows": 1807,
+      "difficulty_distribution": {
+        "Hard": 371,
+        "Easy": 459,
+        "Medium": 977
+      },
+      "avg_frequency": 45.3499,
+      "dominant_existing_topics": [
+        {
+          "topic": "Array",
+          "count": 941
+        },
+        {
+          "topic": "Math",
+          "count": 456
+        },
+        {
+          "topic": "Hash Table",
+          "count": 427
+        },
+        {
+          "topic": "String",
+          "count": 387
+        },
+        {
+          "topic": "Dynamic Programming",
+          "count": 290
+        },
+        {
+          "topic": "Sorting",
+          "count": 270
+        },
+        {
+          "topic": "Greedy",
+          "count": 245
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 183
+        },
+        {
+          "topic": "Union-Find",
+          "count": 178
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 174
+        }
+      ],
+      "sample_titles": [
+        "Divide Nodes Into the Maximum Number of Groups",
+        "Fibonacci Number",
+        "Happy Number",
+        "Largest Number",
+        "Largest Odd Number in String",
+        "Letter Combinations of a Phone Number",
+        "Maximum Number of Balls in a Box",
+        "Maximum Number of Moves in a Grid"
+      ]
+    },
+    "6": {
+      "question_count": 15,
+      "company_question_rows": 48,
+      "difficulty_distribution": {
+        "Hard": 20,
+        "Medium": 19,
+        "Easy": 9
+      },
+      "avg_frequency": 38.7542,
+      "dominant_existing_topics": [
+        {
+          "topic": "Array",
+          "count": 26
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 13
+        },
+        {
+          "topic": "Matrix",
+          "count": 13
+        },
+        {
+          "topic": "Math",
+          "count": 13
+        },
+        {
+          "topic": "Greedy",
+          "count": 12
+        },
+        {
+          "topic": "Bit Manipulation",
+          "count": 7
+        },
+        {
+          "topic": "Prefix Sum",
+          "count": 7
+        },
+        {
+          "topic": "String",
+          "count": 7
+        },
+        {
+          "topic": "Sliding Window",
+          "count": 7
+        },
+        {
+          "topic": "Sorting",
+          "count": 6
+        }
+      ],
+      "sample_titles": [
+        "Shortest Path to Get All Keys",
+        "Maximum Candies You Can Get from Boxes",
+        "Shortest Path to Get All Keys",
+        "Get Biggest Three Rhombus Sums in a Grid",
+        "Get Maximum in Generated Array",
+        "Get the Maximum Score",
+        "Max Difference You Can Get From Changing an Integer",
+        "Maximum Number of Coins You Can Get"
+      ]
+    },
+    "7": {
+      "question_count": 3,
+      "company_question_rows": 11,
+      "difficulty_distribution": {
+        "Medium": 10,
+        "Hard": 1
+      },
+      "avg_frequency": 34.1727,
+      "dominant_existing_topics": [
+        {
+          "topic": "Graph Theory",
+          "count": 11
+        },
+        {
+          "topic": "Breadth-First Search",
+          "count": 10
+        },
+        {
+          "topic": "Depth-First Search",
+          "count": 8
+        },
+        {
+          "topic": "Topological Sort",
+          "count": 7
+        },
+        {
+          "topic": "Kosaraju's Algorithm",
+          "count": 7
+        },
+        {
+          "topic": "Tarjan's SCC Algorithm",
+          "count": 7
+        },
+        {
+          "topic": "Array",
+          "count": 3
+        },
+        {
+          "topic": "Heap (Priority Queue)",
+          "count": 3
+        },
+        {
+          "topic": "Matrix",
+          "count": 3
+        },
+        {
+          "topic": "Shortest Path",
+          "count": 3
+        }
+      ],
+      "sample_titles": [
+        "Find Eventual Safe States",
+        "Find a Safe Walk Through a Grid",
+        "Find Eventual Safe States",
+        "Find Eventual Safe States",
+        "Cracking the Safe",
+        "Find a Safe Walk Through a Grid",
+        "Find Eventual Safe States",
+        "Find a Safe Walk Through a Grid"
+      ]
+    }
+  }
+}

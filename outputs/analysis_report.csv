@@ -1,0 +1,684 @@
+company,company_key,total_questions,unique_questions,top_topics,frequency_mean,acceptance_mean,last_30_days_count,largest_cluster
+1kosmos,1kosmos,1,1,,100.0,63.9,0,1
+6sense,6sense,7,7,,91.0714,55.0714,0,1
+Accelya,accelya,1,1,,100.0,75.4,0,1
+Accenture,accenture,144,144,Array:66; String:31; Math:30; Hash Table:26; Dynamic Programming:22; Two Pointers:22; Sorting:16; Database:10; Greedy:10; Binary Search:9,56.7528,59.9788,0,1
+Accolite,accolite,20,20,Array:13; Dynamic Programming:5; String:5; Two Pointers:5; Greedy:4; Hash Table:4; Stack:3; Breadth-First Search:2; Math:2; Simulation:2,77.39,51.4104,0,1
+Acko,acko,4,4,Dynamic Programming:2; Array:1; Combinatorics:1; Database:1; Directed Acyclic Graph:1; Graph Theory:1; Math:1; Topological Sort:1,94.6,72.3689,0,1
+Acorns,acorns,1,1,,100.0,72.8,0,5
+Activision,activision,3,3,String:2; Array:1; Hash Table:1; Recursion:1; Stack:1,96.5,66.1384,0,5
+Adobe,adobe,154,154,Array:90; String:32; Hash Table:27; Dynamic Programming:22; Depth-First Search:20; Math:20; Two Pointers:20; Breadth-First Search:19; Sorting:19; Binary Search:15,66.3208,58.2639,3,1
+Adp,adp,2,2,,93.75,39.3,0,1
+Aetion,aetion,1,1,,100.0,64.8,0,1
+Affinity,affinity,1,1,,100.0,69.8,0,1
+Affirm,affirm,10,10,Array:7; Hash Table:6; String:5; Design:3; Dynamic Programming:2; Math:2; Randomized:2; Sorting:2; Backtracking:1; Binary Search:1,71.56,56.8029,0,1
+Agoda,agoda,45,45,Array:27; String:12; Hash Table:11; Sorting:10; Dynamic Programming:9; Stack:8; Math:6; Two Pointers:6; Binary Search:5; Greedy:5,68.4444,60.382,3,1
+Airbnb,airbnb,65,65,Array:38; String:21; Hash Table:18; Dynamic Programming:13; Breadth-First Search:12; Math:11; Matrix:9; Bit Manipulation:8; Depth-First Search:8; Design:7,71.7508,54.3444,0,1
+Airbus,airbus,4,4,,100.0,49.0,0,1
+Airbus SE,airbus_se,4,4,Array:4; Hash Table:4; Prefix Sum:1,98.7,49.0247,0,1
+Airtel,airtel,7,7,Array:6; Greedy:2; Prefix Sum:2; Two Pointers:2; Binary Search:1; Bit Manipulation:1; Dynamic Programming:1; Hash Table:1; Polygons:1; Sliding Window:1,96.7429,56.5816,0,1
+Airwallex,airwallex,3,3,Array:1; Binary Lifting:1; Binary Tree:1; Depth-First Search:1; Design:1; Doubly-Linked List:1; Hash Table:1; Linked List:1; Lowest Common Ancestor:1; Monotonic Stack:1,100.0,62.266,0,1
+Akamai,akamai,13,13,Array:7; Hash Table:5; Dynamic Programming:3; String:3; Math:2; Binary Search:1; Breadth-First Search:1; Combinatorics:1; Counting:1; Depth-First Search:1,79.9385,62.5029,0,1
+Akuna Capital,akuna_capital,17,17,Array:11; Dynamic Programming:5; Hash Table:5; Graph Theory:4; Greedy:4; Heap (Priority Queue):4; String:4; Depth-First Search:3; Sorting:3; Breadth-First Search:2,96.7471,55.2121,0,1
+Alibaba,alibaba,5,5,Array:4; Greedy:2; Hash Table:2; String:2; Binary Tree:1; Bracket Sequences:1; Depth-First Search:1; Divide and Conquer:1; Dynamic Programming:1; Heap (Priority Queue):1,100.0,53.2143,0,1
+Allincall,allincall,1,1,,100.0,79.5,0,5
+Alphonso,alphonso,1,1,,100.0,47.4,0,5
+Alten,alten,1,1,,100.0,47.9,0,1
+Altimetrik,altimetrik,4,4,Array:2; Hash Table:2; Bracket Sequences:1; Counting:1; Linked List:1; Recursion:1; Stack:1; String:1,92.1,62.2061,0,1
+Amadeus,amadeus,2,2,Array:1; Hash Table:1; Simulation:1; Sorting:1; String:1,93.75,74.2192,0,1
+Amazon,amazon,2045,2045,Array:1122; String:445; Hash Table:436; Math:315; Dynamic Programming:312; Sorting:308; Greedy:257; Depth-First Search:221; Binary Search:203; Breadth-First Search:173,25.9444,60.2505,245,1
+Amd,amd,17,17,Array:9; Hash Table:7; Two Pointers:5; Math:4; Sorting:4; Linked List:3; String:3; Matrix:2; Breadth-First Search:1; Bucket Sort:1,84.5588,58.092,0,1
+Amdocs,amdocs,5,5,Array:4; Hash Table:2; Math:2; Bit Manipulation:1; Counting:1; Design:1; Heap (Priority Queue):1; Matrix:1; Ordered Set:1; Prefix Sum:1,92.78,69.1884,0,1
+American Airlines,american_airlines,1,1,,100.0,50.2,0,1
+American Express,american_express,28,28,Array:18; Hash Table:9; String:6; Math:5; Sorting:5; Bit Manipulation:3; Greedy:3; Heap (Priority Queue):3; Sliding Window:3; Two Pointers:3,86.8607,56.1345,2,1
+Amplitude,amplitude,1,1,,100.0,40.0,0,1
+Analytics Quotient,analytics_quotient,2,2,Database:2,100.0,50.8,0,1
+Andela,andela,1,1,,100.0,44.5,0,1
+Anduril,anduril,57,57,Array:33; String:15; Breadth-First Search:14; Hash Table:13; Depth-First Search:12; Matrix:11; Sorting:11; Two Pointers:9; Dynamic Programming:6; Stack:6,68.3947,60.0951,4,1
+Anthropic,anthropic,4,4,,84.375,63.475,0,1
+Anyscale,anyscale,1,1,,100.0,51.5,0,1
+Aon,aon,5,5,Array:4; Bit Manipulation:3; Breadth-First Search:1; Database:1; Depth-First Search:1; Greedy:1; Matrix:1; Polygons:1; Union-Find:1,93.12,59.7667,0,1
+Apollo.io,apollo_io,3,3,Array:2; Binary Search:1; Hash Table:1; Math:1; Sliding Window:1; Stack:1; String:1,96.7667,60.4174,0,1
+Apolloio,apolloio,3,3,,95.8333,60.1333,0,1
+Appdynamics,appdynamics,2,2,Hash Table:2; Counting:1; Math:1; Sliding Window:1; String:1,100.0,62.55,0,1
+Appfolio,appfolio,3,3,Design:2; Hash Table:2; Array:1; Breadth-First Search:1; Data Stream:1; Doubly-Linked List:1; Linked List:1; Matrix:1,100.0,57.0638,0,1
+Apple,apple,310,310,Array:162; String:79; Hash Table:74; Breadth-First Search:43; Depth-First Search:42; Two Pointers:41; Dynamic Programming:38; Design:36; Sorting:35; Binary Search:31,45.3458,58.0524,9,1
+Applied Intuition,applied_intuition,11,11,Array:11; Matrix:5; Breadth-First Search:3; Sorting:3; String:2; Binary Search:1; Depth-First Search:1; Design:1; Divide and Conquer:1; Greedy:1,69.0091,59.6445,0,1
+Aqr Capital Management,aqr_capital_management,3,3,Array:2; Dynamic Programming:2; Heap (Priority Queue):1; Linked List:1; Math:1; Monotonic Queue:1; Queue:1; Recursion:1,92.5333,52.6674,0,1
+Arcesium,arcesium,14,14,Array:6; Binary Search:4; Dynamic Programming:4; Greedy:2; Simulation:2; Sliding Window:2; Sorting:2; String:2; Two Pointers:2; Binary Lifting:1,83.7857,53.0883,1,1
+Argo Ai,argo_ai,2,2,,93.75,48.35,0,1
+Arista Networks,arista_networks,43,43,String:13; Array:11; Hash Table:11; Linked List:11; Recursion:7; Dynamic Programming:5; Stack:5; Two Pointers:5; Backtracking:4; Binary Search:4,76.3465,60.7979,2,1
+Asana,asana,5,5,Array:2; Heap (Priority Queue):2; Binary Search Tree:1; Binary Tree:1; Depth-First Search:1; Divide and Conquer:1; Dynamic Programming:1; Geometry:1; Graph Theory:1; K-D Tree:1,87.6,55.6132,0,1
+Ascend,ascend,1,1,,100.0,62.7,0,5
+Athenahealth,athenahealth,5,5,String:3; Array:2; Hash Table:2; Sorting:2; Database:1; Dynamic Programming:1; Manacher:1; Quicksort:1; Sliding Window:1; Two Pointers:1,94.74,56.1356,0,1
+Atlassian,atlassian,63,63,Array:41; Hash Table:22; String:16; Dynamic Programming:11; Sorting:11; Design:10; Greedy:8; Binary Search:7; Depth-First Search:7; Heap (Priority Queue):7,55.8349,53.5981,1,1
+Att,att,6,6,,89.5833,58.8833,0,1
+Attentive,attentive,6,6,String:3; Array:2; Stack:2; Binary Search:1; Greedy:1; Hash Table:1; Prefix Sum:1; Recursion:1; Two Pointers:1,77.6667,51.3229,0,1
+Audible,audible,7,7,Hash Table:3; Array:2; Math:2; Sorting:2; Breadth-First Search:1; Counting:1; Database:1; Depth-First Search:1; Design:1; Doubly-Linked List:1,95.5143,58.587,0,1
+Auriga,auriga,1,1,,100.0,85.5,0,5
+Aurora,aurora,14,14,Array:8; Breadth-First Search:4; Depth-First Search:4; Hash Table:4; Design:3; Matrix:3; Sorting:3; Union-Find:3; Heap (Priority Queue):2; Math:2,73.3714,51.3158,0,1
+Autodesk,autodesk,33,33,Array:23; Hash Table:8; String:8; Sorting:6; Divide and Conquer:4; Hash Function:4; Rolling Hash:4; Simulation:4; String Matching:4; Two Pointers:4,85.5152,56.3499,0,1
+Avalara,avalara,1,1,Math:1; Number Theory:1,100.0,24.8,0,1
+Avito,avito,9,9,Array:6; Sorting:4; Divide and Conquer:2; Dynamic Programming:2; Hash Table:2; Heap (Priority Queue):2; Quickselect:2; String:2; Backtracking:1; Binary Tree:1,85.6556,64.3263,0,1
+Axis Bank,axis_bank,1,1,,100.0,60.3,0,1
+Axon,axon,9,9,String:5; Array:3; Design:3; Hash Table:3; Dynamic Programming:2; Math:2; Binary Search:1; Divide and Conquer:1; Geometry:1; Heap (Priority Queue):1,78.6333,60.1983,0,1
+Baidu,baidu,11,11,Dynamic Programming:8; Array:5; Hash Table:3; String:3; Binary Search:2; Divide and Conquer:2; Greedy:2; Memoization:2; Sliding Window:2; Binary Tree:1,100.0,49.9047,0,1
+Bank Of America,bank_of_america,3,3,Array:1; Bracket Sequences:1; Dynamic Programming:1; Stack:1; String:1,91.6667,60.2961,0,1
+Barclays,barclays,16,16,Array:9; String:6; Hash Table:4; Depth-First Search:2; Greedy:2; Matrix:2; Simulation:2; Stack:2; Trie:2; Two Pointers:2,77.225,60.3539,1,1
+Bcg,bcg,12,12,,91.6667,57.4,0,1
+Bending Spoons,bending_spoons,2,2,,100.0,43.5,0,1
+Bill Com,bill_com,1,1,,100.0,65.9,0,1
+Bitgo,bitgo,15,15,Array:7; Hash Table:7; Breadth-First Search:4; Depth-First Search:4; String:4; Dynamic Programming:3; Binary Tree:2; Monotonic Stack:2; Sliding Window:2; Stack:2,79.68,51.3118,0,1
+Blackbuck,blackbuck,2,2,,100.0,65.5,0,1
+Blackrock,blackrock,17,17,Array:9; Dynamic Programming:6; Hash Table:5; Depth-First Search:4; Math:4; String:4; Tree:4; Bit Manipulation:3; Sorting:3; Two Pointers:3,63.8176,59.663,4,1
+Blackstone,blackstone,2,2,Euclidean Algorithm:1; Greatest Common Divisor:1; Math:1; Stack:1; String:1,94.85,51.5874,0,1
+Blend,blend,2,2,,100.0,53.9,0,1
+Blinkit,blinkit,4,4,Array:3; Hash Table:2; Binary Search:1; Binary Tree:1; Breadth-First Search:1; Depth-First Search:1; Heap (Priority Queue):1; Monotonic Queue:1; Queue:1; Range Minimum/Maximum Query:1,100.0,61.8007,0,1
+Bloomberg,bloomberg,1257,1257,Array:656; Hash Table:273; String:271; Math:191; Sorting:185; Dynamic Programming:178; Binary Search:121; Depth-First Search:120; Greedy:120; Two Pointers:116,30.0467,61.6812,89,1
+Bloomreach,bloomreach,1,1,,100.0,72.0,0,1
+Blue Origin,blue_origin,2,2,,93.75,63.55,0,1
+Bnp Paribas,bnp_paribas,1,1,,100.0,79.4,0,1
+Bny Mellon,bny_mellon,21,21,Array:15; Dynamic Programming:7; Hash Table:7; Sorting:4; Bit Manipulation:3; Greedy:3; String:3; Depth-First Search:2; Graph Theory:2; Math:2,85.1095,49.2539,4,1
+Boeing,boeing,3,3,,100.0,56.6,0,1
+Bolt,bolt,5,5,Array:3; Hash Table:3; String:2; Breadth-First Search:1; Counting:1; Dynamic Programming:1; Graph Theory:1; Prefix Sum:1; Simulation:1; Sorting:1,92.0,63.1189,0,1
+Booking.com,booking_com,15,15,Array:9; Hash Table:6; String:6; Depth-First Search:4; Heap (Priority Queue):4; Sorting:4; Breadth-First Search:3; Matrix:3; Dynamic Programming:2; Graph Theory:2,80.3667,57.8697,1,1
+Bookingcom,bookingcom,14,14,,79.4643,58.1214,0,1
+Box,box,7,7,Breadth-First Search:4; Hash Table:3; String:3; Array:2; Bidirectional Search:2; Depth-First Search:2; Backtracking:1; Binary Tree:1; Bit Manipulation:1; Bucket Sort:1,83.9286,56.8889,0,1
+Bp,bp,1,1,,100.0,58.3,0,1
+Braze,braze,1,1,Array:1; Matrix:1; Simulation:1; Two Pointers:1,100.0,77.6143,0,1
+Bridgewater Associates,bridgewater_associates,2,2,Dynamic Programming:2; Array:1; Math:1,100.0,66.5765,0,1
+Brillio,brillio,1,1,,100.0,82.8,0,1
+Broadcom,broadcom,3,3,,100.0,50.6333,0,1
+Browserstack,browserstack,1,1,,100.0,68.9,0,1
+Bt Group,bt_group,1,1,,100.0,85.6,0,5
+Buyhatke,buyhatke,3,3,,100.0,61.3,0,1
+Bytedance,bytedance,64,64,Array:33; String:17; Hash Table:14; Dynamic Programming:13; Breadth-First Search:11; Math:9; Depth-First Search:8; Stack:8; Linked List:7; Sorting:7,61.2797,55.8267,0,1
+C3 Ai,c3_ai,11,11,,86.3636,58.7636,0,1
+Cadence,cadence,7,7,Linked List:2; String:2; Two Pointers:2; Array:1; Breadth-First Search:1; Depth-First Search:1; Dynamic Programming:1; Graph Theory:1; Hash Table:1; Monotonic Stack:1,100.0,58.1774,0,1
+Canonical,canonical,3,3,Array:1; Math:1; Simulation:1; Stack:1; String:1,95.8333,63.4813,0,1
+Canva,canva,2,2,,93.75,47.0,0,1
+Capgemini,capgemini,37,37,Array:20; Two Pointers:11; String:9; Hash Table:8; Sorting:8; Math:7; Binary Search:4; Database:3; Dynamic Programming:3; Greedy:3,69.2784,61.092,0,1
+Capital One,capital_one,65,65,Array:46; String:19; Hash Table:17; Math:11; Simulation:9; Sorting:8; Matrix:7; Two Pointers:7; Depth-First Search:5; Design:5,59.9292,58.9542,4,1
+Careem,careem,6,6,Array:5; Greedy:2; Binary Search:1; Data Stream:1; Design:1; Dynamic Programming:1; Heap (Priority Queue):1; Prefix Sum:1; Queue:1; Simulation:1,98.1833,63.6071,0,1
+Cars24,cars24,3,3,Array:2; Dynamic Programming:1; Greedy:1; Hash Table:1; Math:1,100.0,54.5894,0,1
+Carwale,carwale,3,3,Stack:2; String:2; Array:1; Bracket Sequences:1; Dynamic Programming:1; Hash Table:1; Simulation:1,88.8333,45.9113,0,1
+Cashfree,cashfree,7,7,Array:4; Dynamic Programming:3; Binary Search:2; Hash Table:2; Sliding Window:2; Breadth-First Search:1; Depth-First Search:1; Graph Theory:1; Greedy:1; Heap (Priority Queue):1,88.5,52.9075,0,1
+Caterpillar,caterpillar,1,1,,100.0,47.9,0,1
+Cerner,cerner,2,2,,100.0,56.8,0,1
+Chargebee,chargebee,1,1,,100.0,45.6,0,1
+Chewy,chewy,5,5,Array:3; Hash Table:2; Sorting:2; Bracket Sequences:1; Bucket Sort:1; Counting:1; Design:1; Divide and Conquer:1; Doubly-Linked List:1; Heap (Priority Queue):1,100.0,55.1874,0,1
+Chime,chime,3,3,Array:3; Stack:2; Breadth-First Search:1; Data Stream:1; Depth-First Search:1; Design:1; Doubly-Linked List:1; Geometry:1; Graph Theory:1; Linked List:1,100.0,65.9321,0,1
+Chubb,chubb,4,4,,90.625,58.4,0,1
+Ciena,ciena,3,3,Array:2; Hash Table:2; Database:1; Sliding Window:1,100.0,52.2731,0,1
+Circle,circle,1,1,Array:1; Design:1; Hash Table:1; Simulation:1,100.0,69.6344,0,1
+Cisco,cisco,90,90,Array:47; String:27; Hash Table:21; Math:15; Two Pointers:15; Dynamic Programming:13; Sorting:10; Depth-First Search:9; Matrix:9; Breadth-First Search:8,54.6189,55.7468,1,1
+Citadel,citadel,90,90,Array:52; Hash Table:22; Dynamic Programming:21; String:21; Design:17; Sorting:14; Depth-First Search:13; Breadth-First Search:12; Math:12; Heap (Priority Queue):11,66.5856,56.4664,3,1
+Citi,citi,7,7,,83.9286,59.7714,0,1
+Citigroup,citigroup,7,7,Array:6; Hash Table:2; Math:2; Sliding Window:2; Stack:2; Binary Search:1; Dynamic Programming:1; Matrix:1; Monotonic Stack:1; Prefix Sum:1,83.1714,60.0253,0,1
+Citrix,citrix,4,4,Array:2; Sorting:2; String:2; Breadth-First Search:1; Depth-First Search:1; Greedy:1; Hash Table:1; Heap (Priority Queue):1; Matrix:1,100.0,64.825,0,1
+Clari,clari,3,3,Binary Tree:2; Tree:2; Array:1; Binary Search Tree:1; Database:1; Dynamic Programming:1; Hash Table:1; Math:1,100.0,71.0639,0,1
+Cleartrip,cleartrip,1,1,0-1 BFS:1; Array:1; Breadth-First Search:1; Dijkstra's Algorithm:1; Graph Theory:1; Heap (Priority Queue):1; Matrix:1; Shortest Path:1,100.0,71.114,0,1
+Clevertap,clevertap,7,7,,92.8571,55.8,0,1
+Cloudera,cloudera,3,3,Bit Manipulation:2; String:1; Union-Find:1,100.0,71.6667,0,1
+Cloudflare,cloudflare,11,11,Array:6; Design:5; Linked List:3; Breadth-First Search:2; Data Stream:2; Depth-First Search:2; Hash Table:2; Queue:2; Sorting:2; Two Pointers:2,80.1364,56.4981,0,1
+Clutter,clutter,1,1,,100.0,51.9,0,1
+Cme Group,cme_group,3,3,Array:2; Divide and Conquer:1; Greedy:1; Heap (Priority Queue):1; Linked List:1; Merge Sort:1; String:1; Tournament Sort:1; Trie:1,91.6667,52.2063,0,1
+Cockroach Labs,cockroach_labs,2,2,,81.25,40.6,0,1
+Code Studio,code_studio,1,1,,100.0,70.1,0,1
+Coditas,coditas,1,1,,100.0,57.8,0,1
+Cognizant,cognizant,49,49,Array:22; Two Pointers:11; Database:10; String:9; Hash Table:8; Math:8; Sorting:8; Dynamic Programming:6; Divide and Conquer:3; Binary Search:2,69.2041,60.2037,0,1
+Cohesity,cohesity,4,4,Array:2; Binary Search:2; Heap (Priority Queue):2; Sorting:2; Data Stream:1; Design:1; Divide and Conquer:1; Hash Table:1; Linked List:1; Merge Sort:1,91.275,54.5794,0,1
+Coinbase,coinbase,12,12,Array:6; Design:6; Hash Table:6; String:5; Trie:3; Binary Search:2; Queue:2; Breadth-First Search:1; Depth-First Search:1; Dynamic Programming:1,69.1333,59.7985,0,1
+Coindcx,coindcx,4,4,,90.625,57.0,0,1
+Coinswitch Kuber,coinswitch_kuber,1,1,,100.0,64.1,0,1
+Comcast,comcast,6,6,Array:3; String:3; Hash Table:2; Bracket Sequences:1; Breadth-First Search:1; Depth-First Search:1; Dynamic Programming:1; Matrix:1; Sliding Window:1; Stack:1,83.3333,52.9996,0,1
+Commvault,commvault,5,5,Array:2; String:2; Binary Search:1; Breadth-First Search:1; Dynamic Programming:1; Hash Table:1; Manacher:1; Matrix:1; Two Pointers:1,93.42,51.2187,0,1
+Compass,compass,9,9,String:6; Array:5; Hash Table:3; Sorting:3; Depth-First Search:2; Heap (Priority Queue):2; String Matching:2; Trie:2; Two Pointers:2; Binary Search:1,91.0444,54.7755,0,1
+Confluent,confluent,9,9,Hash Table:5; Array:4; Design:3; Backtracking:2; Binary Search:2; Doubly-Linked List:2; Linked List:2; Matrix:2; Algorithm X:1; Dancing Links:1,87.8111,63.6266,0,1
+Couchbase,couchbase,6,6,,72.9167,66.3833,0,1
+Coupa,coupa,1,1,,100.0,52.3,0,1
+Coupang,coupang,49,49,Array:28; String:17; Hash Table:15; Sorting:10; Binary Search:9; Design:9; Dynamic Programming:8; Heap (Priority Queue):7; Breadth-First Search:6; Depth-First Search:5,76.8061,53.5494,1,1
+Coursera,coursera,9,9,Array:4; Math:4; Sorting:3; String:3; Counting:2; Dynamic Programming:2; Combinatorics:1; Database:1; Divide and Conquer:1; Euclidean Algorithm:1,100.0,59.9551,0,1
+Cred,cred,2,2,Hash Table:2; Array:1; Counting:1; Sliding Window:1; String:1,100.0,70.0145,0,1
+Criteo,criteo,10,10,Array:8; Hash Table:5; Binary Search:4; Sorting:3; String:2; Two Pointers:2; Bit Manipulation:1; Bracket Sequences:1; Breadth-First Search:1; Counting:1,87.18,56.7278,0,1
+Crowdstrike,crowdstrike,12,12,Array:6; String:5; Breadth-First Search:3; Depth-First Search:3; Hash Table:3; Sorting:3; Two Pointers:3; Design:2; Graph Theory:2; Stack:2,83.9417,60.0831,0,1
+Cruise,cruise,2,2,Array:1; Backtracking:1; Breadth-First Search:1; Depth-First Search:1; Directed Acyclic Graph:1; Graph Theory:1; Hash Table:1; Sort:1; String:1; Topological Sort:1,100.0,54.7686,0,1
+Cruise Automation,cruise_automation,2,2,,100.0,54.65,0,1
+Ctc,ctc,1,1,Array:1; Dynamic Programming:1; Greedy:1,100.0,71.4007,0,1
+Curefit,curefit,1,1,Array:1; Hash Table:1; Prefix Sum:1,100.0,64.8688,0,1
+Cvent,cvent,2,2,Hash Table:1; Linked List:1,100.0,53.3523,0,1
+Cyntexa,cyntexa,4,4,,100.0,49.75,0,1
+Cyware,cyware,1,1,,100.0,63.3,0,1
+Dailyhunt,dailyhunt,1,1,,100.0,68.8,0,6
+Darwinbox,darwinbox,7,7,Array:5; Dynamic Programming:3; Matrix:2; Sorting:2; Greedy:1; Quicksort:1; Simulation:1; String:1; Two Pointers:1,78.2,51.3132,0,1
+Dassault Sysetmes,dassault_sysetmes,1,1,,100.0,80.8,0,1
+Dataart,dataart,1,1,,100.0,44.5,0,1
+Databricks,databricks,31,31,Array:20; Hash Table:10; String:10; Design:8; Matrix:6; Breadth-First Search:5; Binary Search:4; Dynamic Programming:4; Simulation:3; Binary Tree:2,62.5032,52.7479,1,1
+Datadog,datadog,14,14,Array:9; Dynamic Programming:5; String:4; Depth-First Search:3; Hash Table:3; Breadth-First Search:2; Design:2; Tree:2; Two Pointers:2; Binary Tree:1,77.0429,49.4342,0,1
+Dataminr,dataminr,2,2,Array:2; Math:1; Matrix:1; Simulation:1; Sorting:1,100.0,75.8,0,1
+De Shaw,de_shaw,124,124,Array:79; Dynamic Programming:34; String:30; Hash Table:23; Sorting:23; Greedy:22; Binary Search:19; Two Pointers:18; Stack:14; Heap (Priority Queue):13,58.1218,53.4404,8,1
+Deepmind,deepmind,1,1,,100.0,36.8,0,1
+Delhivery,delhivery,5,5,Array:3; Binary Search:1; Database:1; Dynamic Programming:1; Hash Table:1,100.0,44.8148,0,1
+Deliveroo,deliveroo,6,6,Design:2; Hash Table:2; Array:1; Data Stream:1; Doubly-Linked List:1; Linked List:1; String:1,90.45,67.5986,1,1
+Dell,dell,14,14,String:7; Array:5; Hash Table:4; Dynamic Programming:3; Bracket Sequences:2; Database:2; Sorting:2; Stack:2; Two Pointers:2; Backtracking:1,70.9643,61.9772,0,1
+Deloitte,deloitte,44,44,Array:22; String:15; Two Pointers:9; Dynamic Programming:8; Hash Table:8; Database:6; Math:6; Sorting:6; Stack:6; Divide and Conquer:4,68.8523,53.5223,1,1
+Deltax,deltax,3,3,Hash Table:2; Math:2; String:2; Array:1; Bracket Sequences:1; Breadth-First Search:1; Dynamic Programming:1; Memoization:1; Recursion:1,92.8,62.6127,0,1
+Deutsche Bank,deutsche_bank,22,22,Array:18; Dynamic Programming:7; Sorting:5; Binary Search:4; Greedy:4; String:4; Bit Manipulation:3; Hash Table:3; Prefix Sum:3; Two Pointers:3,88.6636,57.8779,0,1
+Devrev,devrev,4,4,Array:3; Hash Table:2; Heap (Priority Queue):2; Binary Search:1; Design:1; Doubly-Linked List:1; Greedy:1; Linked List:1; Monotonic Queue:1; Prefix Sum:1,93.8,48.9301,2,1
+Devsinc,devsinc,1,1,Array:1; Hash Table:1,100.0,57.9047,0,1
+Dialpad,dialpad,3,3,,100.0,49.7333,0,1
+Directi,directi,8,8,Array:6; Graph Theory:3; Depth-First Search:2; Dynamic Programming:2; Tree:2; Bit Manipulation:1; Borůvka's Algorithm:1; DP on Trees:1; Greedy:1; Hash Table:1,100.0,58.125,0,1
+Discord,discord,1,1,,100.0,43.6,0,1
+Discovery,discovery,1,1,,100.0,52.3,0,1
+Disney,disney,12,12,Array:5; String:5; Sorting:4; Hash Table:3; Heap (Priority Queue):3; Divide and Conquer:2; Dynamic Programming:2; Greedy:2; Linked List:2; Two Pointers:2,92.8667,57.1174,0,1
+Dji,dji,1,1,,100.0,69.3,0,1
+Docusign,docusign,36,36,Array:19; Hash Table:16; String:11; Sorting:10; Design:6; Heap (Priority Queue):6; Breadth-First Search:5; Depth-First Search:5; Dynamic Programming:5; Linked List:4,80.7194,59.9118,0,1
+Doordash,doordash,77,77,Array:42; String:21; Breadth-First Search:20; Depth-First Search:18; Hash Table:18; Matrix:14; Sorting:13; Math:10; Binary Search:9; Design:9,50.0662,55.8061,0,1
+Dp World,dp_world,12,12,Array:8; String:5; Hash Table:4; Binary Search:3; Dynamic Programming:3; Depth-First Search:2; Greedy:2; Sliding Window:2; Sorting:2; Two Pointers:2,89.7417,55.2278,0,1
+Drawbridge,drawbridge,1,1,,100.0,58.1,0,1
+Dream11,dream11,13,13,Array:10; Dynamic Programming:4; Greedy:3; Stack:3; Two Pointers:3; Matrix:2; Monotonic Stack:2; Sorting:2; String:2; 0-1 Knapsack:1,80.6308,55.3793,0,1
+Dropbox,dropbox,22,22,Array:15; Hash Table:11; String:9; Breadth-First Search:4; Depth-First Search:4; Design:4; Backtracking:3; Simulation:3; Binary Search:2; Graph Theory:2,97.9136,55.3885,0,1
+Druva,druva,1,1,Array:1; Greedy:1; Sorting:1,100.0,54.1,0,1
+Drw,drw,3,3,Array:3; Greedy:2; Hash Table:1; Sorting:1,100.0,49.5529,0,1
+Dtcc,dtcc,1,1,,100.0,36.1,0,1
+Dunzo,dunzo,7,7,Dynamic Programming:4; Array:3; String:3; Prefix Sum:2; Binary Search:1; Binary Tree:1; Bit Manipulation:1; Game Theory:1; Hash Function:1; Math:1,100.0,61.6267,0,1
+Duolingo,duolingo,5,5,Array:5; Hash Table:3; Breadth-First Search:1; Depth-First Search:1; Design:1; Directed Acyclic Graph:1; Dynamic Programming:1; Graph Theory:1; Greedy:1; Matrix:1,86.82,52.8438,1,1
+Earnin,earnin,5,5,Array:2; Dynamic Programming:1; Hash Table:1; Linked List:1; Manacher:1; Math:1; Matrix:1; Quicksort:1; Recursion:1; Sorting:1,100.0,52.4731,0,1
+Ebay,ebay,66,66,Array:38; String:19; Hash Table:13; Sorting:11; Dynamic Programming:10; Matrix:10; Two Pointers:10; Breadth-First Search:9; Depth-First Search:9; Binary Search:6,75.5621,55.4616,2,1
+Edelweiss,edelweiss,1,1,,100.0,66.4,0,1
+Edelweiss Group,edelweiss_group,1,1,Array:1; Bit Manipulation:1; Sorting:1,100.0,66.3962,0,1
+Elitmus,elitmus,1,1,,100.0,67.4,0,5
+Envoy,envoy,2,2,,100.0,58.85,0,1
+Epam Systems,epam_systems,51,51,Array:21; String:19; Hash Table:11; Two Pointers:11; Dynamic Programming:10; Sorting:10; Math:9; Divide and Conquer:4; Heap (Priority Queue):4; Linked List:4,69.3431,58.1696,2,1
+Epic Games,epic_games,1,1,,100.0,57.2,0,1
+Epic Systems,epic_systems,16,16,String:8; Array:6; Backtracking:5; Math:4; Dynamic Programming:3; Hash Table:3; Matrix:3; Two Pointers:3; Breadth-First Search:2; Depth-First Search:2,75.05,56.3388,0,1
+Epifi,epifi,1,1,,100.0,49.3,0,5
+Equinix,equinix,1,1,,100.0,47.6,0,1
+Ericsson,ericsson,3,3,,100.0,50.6333,0,1
+Etsy,etsy,1,1,,100.0,72.7,0,1
+Exl,exl,2,2,,100.0,52.6,0,1
+Expedia,expedia,69,69,Array:36; String:27; Hash Table:19; Greedy:13; Sorting:11; Stack:10; Binary Search:8; Dynamic Programming:8; Two Pointers:8; Sliding Window:7,79.2971,58.1689,1,1
+EY,ey,2,2,Array:2; Divide and Conquer:1; Greedy:1; Hash Table:1; Quickselect:1; Sorting:1,100.0,48.0253,0,1
+F5 Networks,f5_networks,2,2,,100.0,55.3,0,1
+Factset,factset,4,4,String:4; Stack:3; Greedy:2; Monotonic Stack:2; Array:1; Hash Table:1; Sorting:1,100.0,62.9536,0,1
+Faire,faire,6,6,String:4; Array:3; Enumeration:2; Backtracking:1; Depth-First Search:1; Dynamic Programming:1; Heap (Priority Queue):1; Math:1; Matrix:1; Monotonic Queue:1,84.5,42.9697,1,1
+Fallible,fallible,1,1,,100.0,49.3,0,5
+Fanatics,fanatics,2,2,,100.0,51.55,0,1
+Fast,fast,1,1,,100.0,36.2,0,1
+Fastenal,fastenal,1,1,Hash Table:1; Sorting:1; Stack:1; String:1,100.0,65.2212,0,5
+Fico,fico,1,1,,100.0,77.8,0,1
+Fidelity,fidelity,6,6,String:4; Array:2; Hash Table:2; Counting:1; Math:1; Matrix:1; Queue:1; Sorting:1; Trie:1; Two Pointers:1,94.5333,62.5801,0,1
+Fidessa,fidessa,1,1,,100.0,65.3,0,1
+Figma,figma,1,1,,100.0,52.3,0,1
+Fiverr,fiverr,2,2,Array:2; Backtracking:1; Bit Manipulation:1; Math:1; Two Pointers:1,95.4,63.9339,0,1
+Fivetran,fivetran,2,2,,93.75,58.95,0,1
+Flatiron Health,flatiron_health,1,1,,100.0,67.3,0,1
+Fleetx,fleetx,1,1,,100.0,36.3,0,1
+Flexera,flexera,2,2,Stack:2; String:2; Greedy:1; Hash Table:1; Heap (Priority Queue):1; Simulation:1,100.0,66.9,0,1
+Flexport,flexport,10,10,String:5; Array:4; Binary Search:4; Hash Table:4; Design:2; Backtracking:1; Breadth-First Search:1; Counting:1; Depth-First Search:1; Dynamic Programming:1,80.2,55.9256,0,1
+Flipkart,flipkart,113,113,Array:73; Dynamic Programming:22; Hash Table:22; Sorting:20; Depth-First Search:19; Breadth-First Search:18; String:16; Heap (Priority Queue):15; Stack:15; Matrix:14,60.5389,56.7096,3,1
+Fortinet,fortinet,4,4,Greedy:2; String:2; Counting:1; Database:1; Dynamic Programming:1; Graph Coloring:1; Hash Table:1; Heap (Priority Queue):1; Two Pointers:1,91.825,64.164,0,1
+Forusall,forusall,1,1,,100.0,53.8,0,5
+Fourkites,fourkites,3,3,Array:3; Dynamic Programming:2; String:2; Bit Manipulation:1; Brainteaser:1; Greedy:1,100.0,61.2667,0,1
+Fpt,fpt,2,2,Math:1; Simulation:1,100.0,61.55,0,1
+Fractal Analytics,fractal_analytics,15,15,,75.8333,48.6,0,1
+Freecharge,freecharge,3,3,Hash Table:2; Array:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Linked List:1; Sliding Window:1; String:1,96.5333,46.9251,0,1
+Freshworks,freshworks,10,10,Array:6; String:3; Two Pointers:3; Greedy:2; Hash Table:2; Heap (Priority Queue):2; Prefix Sum:2; Sorting:2; Binary Search:1; Bracket Sequences:1,90.94,56.7771,1,1
+Fynd,fynd,1,1,,100.0,73.6,0,1
+Gainsight,gainsight,1,1,,100.0,45.2,0,1
+Gameskraft,gameskraft,4,4,Depth-First Search:3; Array:2; Dynamic Programming:2; Tree:2; Binary Search:1; Breadth-First Search:1; Graph Theory:1; Heap (Priority Queue):1; Math:1; Monotonic Queue:1,80.55,37.392,0,1
+Garena,garena,2,2,,100.0,53.1,0,1
+Garmin,garmin,5,5,Array:4; Dynamic Programming:1; Greedy:1; Hash Table:1; Longest Increasing Subsequence:1; Math:1; Sorting:1; String:1,93.58,65.1309,0,1
+Gartner,gartner,3,3,,91.6667,60.3667,0,1
+Ge Digital,ge_digital,3,3,Array:1; Enumeration:1; Hash Table:1; Math:1; Stack:1; String:1,96.8,57.8243,0,1
+Ge Healthcare,ge_healthcare,3,3,Array:3; Bellman–Ford Algorithm:1; Binary Search:1; Breadth-First Search:1; Depth-First Search:1; Divide and Conquer:1; Floyd–Warshall Algorithm:1; Graph Theory:1; Shortest Path:1; Simulation:1,96.5,67.2795,0,1
+Geico,geico,18,18,Array:10; String:7; Dynamic Programming:5; Greedy:5; Hash Table:5; Matrix:4; Bit Manipulation:3; Simulation:3; Breadth-First Search:2; Sorting:2,76.4611,58.0879,0,1
+General Electric,general_electric,1,1,,100.0,63.4,0,5
+General Motors,general_motors,13,13,Array:7; Hash Table:5; String:5; Design:4; Sorting:3; Breadth-First Search:2; Depth-First Search:2; Dynamic Programming:2; Binary Tree:1; Bit Manipulation:1,71.4231,62.0804,0,1
+Gep,gep,1,1,,100.0,77.3,0,5
+Gilt Groupe,gilt_groupe,1,1,,100.0,64.2,0,1
+Github,github,5,5,,95.0,44.82,0,1
+Glassdoor,glassdoor,1,1,,100.0,73.8,0,1
+Glean,glean,1,1,,100.0,45.0,0,1
+Globallogic,globallogic,1,1,,100.0,57.8,0,1
+Glovo,glovo,2,2,,93.75,57.25,0,1
+Godaddy,godaddy,5,5,String:2; Array:1; Binary Search:1; Bracket Sequences:1; Enumeration:1; Graph Theory:1; Math:1; Quicksort:1; Sorting:1; Stack:1,96.04,50.0854,0,1
+Gojek,gojek,5,5,,100.0,59.68,0,1
+Goldman Sachs,goldman_sachs,273,273,Array:160; String:69; Hash Table:58; Dynamic Programming:57; Sorting:47; Math:34; Binary Search:33; Two Pointers:31; Greedy:28; Matrix:25,37.8634,57.4496,9,1
+Google,google,2361,2361,Array:1319; String:544; Hash Table:508; Dynamic Programming:400; Math:395; Sorting:334; Greedy:250; Depth-First Search:244; Binary Search:220; Matrix:204,24.5531,59.653,294,1
+Gopuff,gopuff,2,2,,93.75,55.7,0,1
+Goto,goto,2,2,,100.0,42.3,0,1
+Grab,grab,15,15,Array:9; String:7; Dynamic Programming:5; Greedy:3; Hash Table:3; Stack:3; Bit Manipulation:1; Bracket Sequences:1; Breadth-First Search:1; Depth-First Search:1,92.8733,52.1806,0,1
+Grammarly,grammarly,30,30,String:15; Array:14; Hash Table:10; Dynamic Programming:9; Math:6; Sorting:5; Binary Search:4; Depth-First Search:4; Stack:4; Backtracking:3,73.85,60.0838,5,1
+Graviton,graviton,7,7,,100.0,50.1714,0,1
+Groupon,groupon,2,2,Array:2; Greedy:2; Binary Search:1; Dynamic Programming:1; Heap (Priority Queue):1; Math:1; Sorting:1,100.0,36.7649,0,1
+Groww,groww,7,7,Array:6; Dynamic Programming:4; Backtracking:2; Bit Manipulation:2; Greedy:2; Bitmask:1; Breadth-First Search:1; Hash Table:1; Math:1; Memoization:1,93.5857,53.2905,1,1
+Grubhub,grubhub,2,2,Array:2; Breadth-First Search:1; Depth-First Search:1; Matrix:1; Quicksort:1; Sorting:1; Union-Find:1,100.0,63.2905,0,1
+Gsa Capital,gsa_capital,2,2,Array:1; Dynamic Programming:1; Matrix:1,93.75,47.2366,0,1
+Gsn Games,gsn_games,5,5,Database:5,100.0,60.94,0,1
+Guidewire,guidewire,5,5,Array:3; Breadth-First Search:2; Dynamic Programming:2; Backtracking:1; Binary Tree:1; Bit Manipulation:1; Bitmask:1; Brainteaser:1; Graph Theory:1; Greedy:1,97.84,59.3719,0,1
+Gusto,gusto,5,5,String:3; Array:2; Hash Table:2; Math:2; Aho–Corasick Algorithm:1; Binary Search:1; Design:1; Dynamic Programming:1; Greedy:1; Recursion:1,79.34,42.1518,0,1
+Harness,harness,5,5,Array:2; Hash Table:2; Sliding Window:2; String:2; Bit Manipulation:1; Divide and Conquer:1; Monotonic Stack:1; Sorting:1; Stack:1; Two Pointers:1,97.78,42.5056,0,1
+Hashedin,hashedin,33,33,Array:22; String:10; Dynamic Programming:9; Hash Table:8; Greedy:5; Two Pointers:5; Binary Search:4; Sorting:4; Breadth-First Search:3; Backtracking:2,73.0394,54.4028,0,1
+Hbo,hbo,1,1,,100.0,65.8,0,1
+Hcl,hcl,18,18,Array:7; String:7; Two Pointers:7; Dynamic Programming:5; Binary Search:3; Hash Table:3; Math:3; Database:2; Sliding Window:2; Sorting:2,73.3333,56.6715,0,1
+Helix,helix,1,1,,100.0,70.5,0,1
+Hexaware,hexaware,1,1,,100.0,49.6,0,1
+Highspot,highspot,1,1,Math:1; Stack:1; String:1,100.0,47.0427,0,1
+Hilabs,hilabs,3,3,String:2; Bit Manipulation:1; Bitmask:1; Dynamic Programming:1; Math:1; Recursion:1; Simulation:1; Stack:1,100.0,65.2602,0,1
+Hive,hive,7,7,Array:5; Breadth-First Search:3; Depth-First Search:2; Design:2; Dynamic Programming:2; Heap (Priority Queue):2; Matrix:2; Sorting:2; String:2; Two Pointers:2,93.2143,58.3281,0,1
+Honey,honey,1,1,,100.0,54.8,0,1
+Honeywell,honeywell,4,4,Array:4; Hash Table:2; Greedy:1; Matrix:1; Sliding Window:1; Sorting:1,97.375,56.5297,0,1
+Hopper,hopper,1,1,,100.0,44.7,0,1
+Hotstar,hotstar,2,2,Array:2; Dynamic Programming:1; Math:1,100.0,47.5014,0,1
+Houzz,houzz,2,2,Math:2; Recursion:1; Stack:1; String:1,100.0,55.45,0,1
+Hp,hp,5,5,String:4; Greedy:3; Bracket Sequences:2; Stack:2; Array:1; Dynamic Programming:1; Hash Table:1; Sliding Window:1,85.2,52.3808,0,1
+Hpe,hpe,4,4,Dynamic Programming:2; Array:1; Backtracking:1; Linked List:1; Manacher:1; Math:1; Memoization:1; Recursion:1; String:1; Two Pointers:1,100.0,59.5258,0,1
+Hrt,hrt,9,9,,95.8333,60.6333,0,1
+Hsbc,hsbc,6,6,Array:3; Dynamic Programming:3; Math:2; String:2; Depth-First Search:1; Greedy:1; Manacher:1; Matrix:1; Memoization:1; Trie:1,93.75,60.0083,0,1
+Htc,htc,5,5,,95.0,62.96,0,1
+Huawei,huawei,17,17,Array:10; Dynamic Programming:6; String:5; Stack:4; Two Pointers:4; Hash Table:3; Backtracking:2; Bracket Sequences:2; Breadth-First Search:2; Divide and Conquer:2,86.9529,59.1648,0,1
+Hubspot,hubspot,12,12,Array:6; Sorting:4; Hash Table:3; Heap (Priority Queue):3; Two Pointers:3; Linked List:2; Design:1; Divide and Conquer:1; Graph Theory:1; Greedy:1,72.2167,57.8647,0,1
+Hudson River Trading,hudson_river_trading,16,16,Array:11; String:4; Graph Theory:3; Hash Table:3; Math:3; Simulation:3; Bit Manipulation:2; Greedy:2; Matrix:2; Prefix Sum:2,93.875,58.7597,1,1
+Hulu,hulu,5,5,Math:2; Stack:2; Array:1; Binary Tree:1; Bit Manipulation:1; Depth-First Search:1; Monotonic Stack:1; Recursion:1; String:1; Tree:1,100.0,61.64,0,1
+Ibm,ibm,178,178,Array:103; String:53; Sorting:36; Hash Table:33; Two Pointers:30; Greedy:29; Math:23; Dynamic Programming:22; Binary Search:17; Prefix Sum:17,55.6579,60.1026,0,1
+Iit Bombay,iit_bombay,1,1,Array:1; Bit Manipulation:1; Greedy:1; Matrix:1,100.0,80.3,0,1
+IMC,imc,8,8,Array:4; Binary Search:2; Design:2; Dynamic Programming:2; Matrix:2; Prefix Sum:2; Sorting:2; Stack:2; Divide and Conquer:1; Doubly-Linked List:1,89.3,55.798,1,1
+Impact Analytics,impact_analytics,1,1,,100.0,57.1,0,1
+Impetus,impetus,1,1,,100.0,63.2,0,1
+Increff,increff,1,1,,100.0,53.5,0,1
+Indeed,indeed,7,7,Array:5; Hash Table:3; Counting:2; Binary Tree:1; DP on Trees:1; Depth-First Search:1; Dynamic Programming:1; Math:1; Matrix:1; Simulation:1,94.6429,63.657,0,1
+Info Edge,info_edge,8,8,Array:6; Hash Table:3; Sorting:2; Two Pointers:2; Bit Manipulation:1; Breadth-First Search:1; Bubble Sort:1; Counting:1; Design:1; Dynamic Programming:1,83.0875,58.664,0,1
+Informatica,informatica,2,2,Array:1; Breadth-First Search:1; Design:1; Matrix:1; Stack:1,94.6,58.8067,0,1
+Infosys,infosys,228,228,Array:139; Dynamic Programming:58; String:43; Math:39; Hash Table:35; Sorting:33; Greedy:32; Two Pointers:31; Binary Search:27; Stack:19,59.5149,56.3303,35,1
+Inmobi,inmobi,13,13,Array:5; Dynamic Programming:5; String:4; Binary Search:3; Breadth-First Search:3; Depth-First Search:3; Graph Theory:3; Stack:3; Greedy:2; Hash Table:2,87.4154,52.1845,3,1
+Innovaccer,innovaccer,4,4,,90.625,73.45,0,1
+Instabase,instabase,3,3,Array:1; Breadth-First Search:1; Depth-First Search:1; Graph Theory:1; Monotonic Stack:1; Stack:1; Topological Sort:1; Union-Find:1,100.0,57.1807,0,1
+Instacart,instacart,9,9,Array:7; Hash Table:5; String:4; Binary Search:2; Design:2; Simulation:2; Sorting:2; Dynamic Programming:1; Greedy:1; Matrix:1,90.2778,59.8151,0,1
+Intel,intel,21,21,Array:9; Hash Table:7; Stack:5; Linked List:4; Two Pointers:4; Design:3; Math:3; String:3; Bracket Sequences:2; Counting:2,75.2905,59.8003,0,1
+Interactive Brokers,interactive_brokers,1,1,,100.0,69.5,0,1
+Intercom,intercom,1,1,,100.0,46.4,0,1
+Intuit,intuit,66,66,Array:39; Dynamic Programming:20; String:18; Hash Table:13; Breadth-First Search:10; Matrix:10; Sorting:10; Depth-First Search:8; Binary Search:7; Stack:7,64.8697,55.898,4,1
+Ivp,ivp,2,2,Array:2; Breadth-First Search:2; Backtracking:1; Bit Manipulation:1; Bitmask:1; Dynamic Programming:1; Graph Theory:1,100.0,39.4188,0,1
+Ixl,ixl,17,17,Array:8; Math:6; Hash Table:5; String:5; Design:3; Sorting:3; Dynamic Programming:2; Heap (Priority Queue):2; Linked List:2; Simulation:2,87.5118,52.3714,0,1
+Jane Street,jane_street,15,15,Array:8; String:6; Simulation:5; Hash Table:4; Design:3; Linked List:3; Math:3; Doubly-Linked List:2; Stack:2; Trie:2,87.06,55.6103,0,1
+Jd,jd,1,1,,100.0,46.2,0,5
+Jeavio,jeavio,1,1,,100.0,58.1,0,1
+Jingchi,jingchi,1,1,,100.0,53.4,0,1
+Jio,jio,7,7,Array:4; Hash Table:3; Breadth-First Search:2; Depth-First Search:2; Tree:2; Heap (Priority Queue):1; Linked List:1; Matrix:1; Recursion:1; Sliding Window:1,84.4429,64.7031,0,1
+Josh Technology,josh_technology,38,38,Array:14; Binary Tree:12; Depth-First Search:12; Tree:12; Breadth-First Search:10; Linked List:8; Stack:6; Two Pointers:6; String:5; Hash Table:4,67.9026,65.3602,1,1
+Jpmorgan,jpmorgan,74,74,,61.3176,61.5081,1,1
+Jtg,jtg,2,2,,93.75,64.4,0,1
+Jump Trading,jump_trading,4,4,Math:2; Floyd's Cycle Finding Algorithm:1; Hash Table:1; Recursion:1; Two Pointers:1,93.75,61.627,0,1
+Juniper Networks,juniper_networks,1,1,Array:1; Backtracking:1,100.0,77.0061,0,1
+Juspay,juspay,20,20,Array:14; Hash Table:8; Depth-First Search:4; Graph Theory:4; Greedy:4; Dynamic Programming:3; Sliding Window:3; String:3; Breadth-First Search:2; Simulation:2,71.98,50.7308,2,1
+Kakao,kakao,2,2,Array:2; Backtracking:1; Bit Manipulation:1; Breadth-First Search:1; Enumeration:1; Matrix:1,100.0,52.35,0,1
+Karat,karat,11,11,Array:9; Hash Table:6; String:6; Matrix:4; Counting:2; Dynamic Programming:2; Sorting:2; Backtracking:1; Depth-First Search:1; Greedy:1,75.3818,55.9197,0,1
+Kickdrum,kickdrum,3,3,,91.6667,54.7,0,1
+Kla,kla,8,8,Array:4; Hash Table:4; Design:3; Doubly-Linked List:2; Linked List:2; Two Pointers:2; Binary Search:1; Data Stream:1; Euclidean Algorithm:1; Greatest Common Divisor:1,86.2625,49.1936,0,1
+Kla Tencor,kla_tencor,4,4,,90.625,56.075,0,1
+Kotak Mahindra Bank,kotak_mahindra_bank,2,2,,100.0,49.7,0,1
+Kpmg,kpmg,3,3,,91.6667,50.4,0,1
+Larsen & Toubro,larsen_and_toubro,3,3,Array:3; Math:1; String:1; Trie:1,100.0,62.8321,0,1
+Larsen Toubro,larsen_toubro,2,2,,100.0,70.05,0,1
+Leap Motion,leap_motion,1,1,,100.0,43.2,0,1
+Lendingkart,lendingkart,1,1,,100.0,67.5,0,1
+Lendingkart Technologies,lendingkart_technologies,1,1,Greedy:1; String:1,100.0,67.5515,0,1
+Lenskart,lenskart,1,1,String:1,100.0,23.4402,0,5
+Lg Electronics,lg_electronics,6,6,,91.6667,55.6833,0,1
+Liberty Mutual,liberty_mutual,1,1,,100.0,51.1,0,1
+Liftoff,liftoff,4,4,Array:3; Algorithm X:1; Backtracking:1; Binary Search:1; Heap (Priority Queue):1; Math:1; Matrix:1; Prefix Sum:1; Randomized:1; Simulation:1,92.575,63.4899,0,1
+Lime,lime,7,7,,96.4286,64.0571,0,1
+Line,line,3,3,Array:2; Dynamic Programming:1; Heap (Priority Queue):1; Monotonic Queue:1; Queue:1; Range Minimum/Maximum Query:1; Sliding Window:1; Sorting:1,92.6333,53.3348,0,1
+Linkedin,linkedin,179,179,Array:79; Hash Table:39; String:36; Depth-First Search:34; Breadth-First Search:30; Tree:27; Dynamic Programming:26; Math:26; Binary Tree:25; Two Pointers:23,50.0285,56.5665,5,1
+Liveramp,liveramp,6,6,Array:4; Hash Table:3; Sorting:2; String:2; Backtracking:1; Binary Search:1; Breadth-First Search:1; Counting:1; Depth-First Search:1; Design:1,94.4667,52.0974,0,1
+Livspace,livspace,2,2,,100.0,57.5,0,1
+Lowe,lowe,5,5,,92.5,53.74,0,1
+Lowe's,lowe_s,6,6,Hash Table:5; Array:4; Bit Manipulation:2; String:2; Bitmask:1; Counting:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Linked List:1,87.0167,52.8572,0,1
+Lti,lti,9,9,Array:4; Sorting:3; Two Pointers:3; Dynamic Programming:2; Math:2; Sliding Window:2; Binary Search:1; Bit Manipulation:1; Bitmask:1; Database:1,91.6111,50.0145,0,1
+Lucid,lucid,6,6,Array:2; Depth-First Search:2; Stack:2; Tree:2; Binary Lifting:1; Binary Tree:1; Bracket Sequences:1; Breadth-First Search:1; Counting:1; Design:1,96.3,58.7074,0,1
+Luxoft,luxoft,2,2,Linked List:1; Math:1; Recursion:1,100.0,70.8291,0,1
+Lyft,lyft,25,25,Array:10; Hash Table:8; String:8; Breadth-First Search:6; Design:4; Sorting:4; Binary Tree:3; Depth-First Search:3; Heap (Priority Queue):3; Linked List:3,67.164,53.3649,2,1
+Machine Zone,machine_zone,2,2,Database:1; Design:1; Ordered Set:1; Segment Tree:1,100.0,46.6,0,1
+Machinezone,machinezone,1,1,,100.0,47.9,0,5
+Maersk,maersk,1,1,,100.0,47.9,0,1
+Makemytrip,makemytrip,20,20,Array:11; Dynamic Programming:10; String:9; Hash Table:7; Breadth-First Search:3; Depth-First Search:3; Backtracking:2; Bracket Sequences:2; Graph Theory:2; Sliding Window:2,82.575,52.3574,0,1
+Mapbox,mapbox,1,1,Array:1; Bit Manipulation:1; Counting:1; Sorting:1,100.0,82.417,0,5
+Maq Software,maq_software,6,6,String:5; Dynamic Programming:4; Bracket Sequences:1; Database:1; Hash Table:1; Manacher:1; Sliding Window:1; Stack:1; Two Pointers:1,94.2,48.8031,0,1
+Marqeta,marqeta,2,2,,93.75,57.9,0,1
+Mastercard,mastercard,13,13,Array:8; String:5; Dynamic Programming:4; Backtracking:2; Complete Knapsack:2; Hash Table:2; Knapsack Problem:2; Math:2; Matrix:2; Algorithm X:1,87.7462,58.7735,2,1
+Mathworks,mathworks,31,31,Array:16; String:10; Greedy:8; Dynamic Programming:7; Hash Table:7; Math:6; Binary Search:5; Counting:4; Heap (Priority Queue):4; Simulation:3,80.7903,53.5785,0,1
+Mcafee,mcafee,1,1,,100.0,82.1,0,1
+Mcdonalds,mcdonalds,2,2,,100.0,54.85,0,1
+Mckinsey,mckinsey,2,2,Array:2; Breadth-First Search:1; Depth-First Search:1; Greedy:1; Heap (Priority Queue):1; Matrix:1,100.0,61.85,0,1
+Media.net,media_net,35,35,Array:27; Dynamic Programming:14; Depth-First Search:8; Hash Table:7; Bit Manipulation:6; Math:6; Prefix Sum:5; Tree:5; Binary Search:4; Breadth-First Search:4,79.0457,52.3547,0,1
+Medianet,medianet,31,31,,80.2419,52.0516,0,1
+Meesho,meesho,45,45,Array:26; Dynamic Programming:12; Hash Table:8; Math:8; Binary Search:5; Bit Manipulation:4; Depth-First Search:4; Graph Theory:4; Sliding Window:4; Sorting:4,74.34,51.5354,2,1
+Meituan,meituan,1,1,,100.0,71.5,0,1
+Mercari,mercari,6,6,Array:3; Greedy:3; Hash Table:3; Math:3; String:2; Counting:1; Design:1; Sorting:1; Stack:1,100.0,66.5833,0,1
+Meta,meta,1420,1420,Array:736; String:304; Hash Table:283; Math:218; Dynamic Programming:201; Sorting:187; Depth-First Search:164; Binary Search:132; Breadth-First Search:127; Greedy:125,27.2591,61.2883,81,1
+Micro1,micro1,5,5,,100.0,51.78,0,1
+Microsoft,microsoft,1423,1423,Array:744; String:318; Hash Table:286; Dynamic Programming:226; Math:215; Sorting:195; Depth-First Search:155; Greedy:140; Binary Search:129; Breadth-First Search:127,27.9885,61.0171,78,1
+Microstrategy,microstrategy,10,10,Array:6; Dynamic Programming:3; String:3; Hash Table:2; Stack:2; Two Pointers:2; Backtracking:1; Bit Manipulation:1; Bitmask:1; Bracket Sequences:1,85.44,64.1821,0,1
+Millennium,millennium,12,12,Array:6; String:5; Dynamic Programming:3; Hash Table:3; Tree:3; Binary Tree:2; Depth-First Search:2; Design:2; Linked List:2; Sorting:2,84.9917,49.4719,0,1
+Mindtickle,mindtickle,4,4,Array:4; Dynamic Programming:3; Two Pointers:2; Bipartite Graph:1; Bit Manipulation:1; Bitmask:1; Counting:1; Greedy:1; Hash Table:1; Matching (Graph):1,100.0,51.3571,0,1
+Mindtree,mindtree,5,5,Math:2; Array:1; Database:1; Hash Table:1; Simulation:1,93.34,60.7926,0,1
+Mishipay,mishipay,1,1,,100.0,61.0,0,1
+Mitsogo,mitsogo,16,16,Array:11; Dynamic Programming:5; Bit Manipulation:4; Counting:3; Hash Table:3; Sorting:3; String:3; Sliding Window:2; Two Pointers:2; Combinatorics:1,89.825,46.979,0,1
+Mixpanel,mixpanel,2,2,Array:1; Depth-First Search:1; Design:1; Iterator:1; Queue:1; Stack:1; Sweep Line:1; Tree:1; Two Pointers:1,100.0,69.4679,0,1
+Mobileye,mobileye,1,1,Hash Table:1; Linked List:1,100.0,63.4046,0,1
+Mobisy,mobisy,1,1,,100.0,62.7,0,1
+Moengage,moengage,1,1,Counting:1; Hash Table:1; String:1,100.0,66.9,0,1
+Moloco,moloco,16,16,Array:9; Breadth-First Search:4; Hash Table:4; Stack:4; String:4; Depth-First Search:3; Matrix:3; Union-Find:3; Design:2; Dynamic Programming:2,91.6813,57.2424,0,1
+Moneylion,moneylion,1,1,,100.0,34.7,0,1
+Mongodb,mongodb,26,26,Hash Table:11; Array:10; String:8; Design:6; Depth-First Search:5; Binary Search:4; Breadth-First Search:4; Heap (Priority Queue):4; Trie:4; Two Pointers:4,77.5423,57.4068,0,1
+Morgan Stanley,morgan_stanley,65,65,Array:41; Hash Table:18; Dynamic Programming:17; String:15; Sorting:10; Greedy:9; Two Pointers:9; Stack:8; Math:7; Counting:6,65.6862,57.9594,1,1
+Motive,motive,10,10,,80.0,54.86,0,1
+Moveworks,moveworks,6,6,Array:6; String:4; Hash Table:3; Backtracking:2; Trie:2; Dynamic Programming:1; Greedy:1; Math:1; Memoization:1; Quicksort:1,89.6833,53.6061,2,1
+Mphasis,mphasis,1,1,,100.0,38.2,0,1
+Msci,msci,1,1,,100.0,72.9,0,1
+Murex,murex,1,1,,100.0,57.1,0,1
+Mykaarma,mykaarma,1,1,,100.0,37.4,0,1
+Myntra,myntra,20,20,Array:16; Sorting:5; Dynamic Programming:4; Hash Table:4; String:4; Greedy:3; Two Pointers:3; Backtracking:2; Binary Search:2; Breadth-First Search:2,90.64,56.7154,0,1
+Nagarro,nagarro,8,8,Hash Table:5; String:3; Array:2; Sorting:2; Stack:2; Two Pointers:2; Bubble Sort:1; Counting:1; Design:1; Dynamic Programming:1,91.725,59.8856,0,1
+Nasdaq,nasdaq,1,1,,100.0,57.1,0,1
+National Instruments,national_instruments,1,1,Stack:1; String:1,100.0,37.4,0,1
+National Payments Coorperation India,national_payments_coorperation_india,2,2,,100.0,63.7,0,1
+National Payments Corporation of India,national_payments_corporation_of_india,2,2,Array:2; Binary Search:1; Prefix Sum:1,100.0,63.697,0,1
+Natwest,natwest,3,3,,91.6667,52.4667,0,1
+Navan,navan,3,3,Hash Table:2; Array:1; Bidirectional Search:1; Breadth-First Search:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Linked List:1; String:1,96.5333,52.8029,0,1
+Naver,naver,1,1,,100.0,57.8,0,1
+Navi,navi,3,3,Array:3; Dynamic Programming:3; Greedy:2; Binary Search:1; Monotonic Stack:1; Sorting:1; Stack:1; Two Pointers:1,100.0,53.3855,0,1
+Ncr,ncr,3,3,Hash Table:2; Array:1; Breadth-First Search:1; Depth-First Search:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Graph Theory:1; Linked List:1; Queue:1,93.2,54.2138,0,1
+Nebius,nebius,1,1,,100.0,60.3,0,1
+Nerdwallet,nerdwallet,1,1,,100.0,68.0,0,1
+Netapp,netapp,13,13,Array:6; Hash Table:5; String:4; Dynamic Programming:2; Backtracking:1; Design:1; Doubly-Linked List:1; Linked List:1; Math:1; Matrix:1,88.0308,55.1304,2,1
+Netcracker Technology,netcracker_technology,1,1,,100.0,38.2,0,1
+Netease,netease,2,2,Array:1; Binary Search:1; Dynamic Programming:1; Greedy:1; Sorting:1; String:1; Two Pointers:1,100.0,58.65,0,1
+Netflix,netflix,29,29,Array:16; Hash Table:13; Sorting:8; String:8; Depth-First Search:6; Design:6; Binary Search:5; Graph Theory:5; Heap (Priority Queue):5; Sliding Window:5,74.6759,52.9218,1,1
+Netskope,netskope,8,8,Hash Table:5; String:4; Design:3; Linked List:3; Doubly-Linked List:2; Dynamic Programming:2; Array:1; Divide and Conquer:1; Heap (Priority Queue):1; Merge Sort:1,100.0,49.2015,0,1
+Netsuite,netsuite,2,2,Array:1; Database:1; Sorting:1,100.0,70.65,0,1
+Newsbreak,newsbreak,2,2,,100.0,57.45,0,1
+Nextdoor,nextdoor,3,3,Array:1; Design:1; Doubly-Linked List:1; Hash Table:1; Linked List:1; Quicksort:1; Sorting:1; String:1; Two Pointers:1,100.0,47.8842,0,1
+Nextjump,nextjump,1,1,,100.0,70.0,0,1
+Niantic,niantic,3,3,String:2; Array:1; Backtracking:1; Binary Search:1; Bit Manipulation:1; Breadth-First Search:1; Floyd's Cycle Finding Algorithm:1; Pigeonhole Principle:1; Sorting:1; Stack:1,93.0,51.0007,0,1
+Nielsen,nielsen,6,6,Array:3; Dynamic Programming:3; String:3; Greedy:1; Hash Table:1; Manacher:1; Math:1; Simulation:1; Sorting:1; Two Pointers:1,90.4,50.9709,0,1
+Nike,nike,14,14,Array:8; Dynamic Programming:4; String:4; Greedy:3; Hash Table:3; Stack:3; Two Pointers:3; Bracket Sequences:2; Design:2; Floyd's Cycle Finding Algorithm:2,81.5429,53.8443,0,1
+Nokia,nokia,10,10,Array:5; Sorting:3; String:3; Hash Table:2; Linked List:2; Stack:2; Binary Search:1; Bracket Sequences:1; Bézout's Lemma:1; Design:1,92.41,57.5163,0,1
+Noon,noon,1,1,,100.0,73.3,0,1
+Nordstrom,nordstrom,4,4,Array:2; Hash Table:2; Breadth-First Search:1; Depth-First Search:1; Design:1; Directed Acyclic Graph:1; Doubly-Linked List:1; Graph Theory:1; Linked List:1; Matrix:1,90.625,58.3918,0,1
+Notion,notion,1,1,,100.0,51.5,0,1
+Nuro,nuro,14,14,Array:13; Breadth-First Search:4; Depth-First Search:4; Matrix:4; String:3; Design:2; Graph Theory:2; Hash Table:2; Linear Algebra:2; Math:2,75.3429,61.111,0,1
+Nutanix,nutanix,69,69,Array:40; Hash Table:15; String:14; Depth-First Search:13; Dynamic Programming:13; Greedy:12; Breadth-First Search:10; Matrix:10; Design:8; Sorting:8,76.8159,56.3257,1,1
+Nvidia,nvidia,142,142,Array:74; Hash Table:31; String:28; Sorting:25; Two Pointers:22; Math:21; Dynamic Programming:19; Linked List:17; Breadth-First Search:13; Depth-First Search:12,55.557,58.2884,1,1
+Nykaa,nykaa,4,4,String:3; Array:2; Bracket Sequences:1; Dynamic Programming:1; Greedy:1; Hash Table:1; Matrix:1; Sorting:1; Stack:1; Two Pointers:1,91.9,50.8855,0,1
+Observeai,observeai,2,2,,100.0,43.55,0,1
+Odoo,odoo,3,3,Stack:2; Array:1; Boyer–Moore Majority Vote Algorithm:1; Bracket Sequences:1; Counting:1; Design:1; Divide and Conquer:1; Hash Table:1; Sorting:1; String:1,100.0,56.5356,0,1
+Okta,okta,20,20,Array:12; Hash Table:11; Design:6; String:5; Sorting:4; Breadth-First Search:3; Bidirectional Search:2; Greedy:2; Heap (Priority Queue):2; Math:2,81.115,56.1981,0,1
+Okx,okx,1,1,Array:1; Breadth-First Search:1; Depth-First Search:1; Matrix:1; Union-Find:1,100.0,64.8303,0,5
+Ola,ola,24,24,,68.75,54.4125,24,1
+Ola Cabs,ola_cabs,24,24,Array:12; Dynamic Programming:7; String:7; Hash Table:6; Depth-First Search:5; Breadth-First Search:4; Math:4; Two Pointers:4; Binary Tree:3; Tree:3,71.1875,54.6474,24,1
+Olx,olx,2,2,,93.75,55.0,0,1
+Openai,openai,18,18,Array:11; Design:11; Hash Table:8; String:7; Matrix:4; Stack:4; Binary Search:3; Doubly-Linked List:2; Linked List:2; Queue:2,72.35,57.1071,2,1
+Opentext,opentext,9,9,Array:5; String:5; Dynamic Programming:2; Hash Table:2; Bracket Sequences:1; Counting:1; Manacher:1; Math:1; Prefix Sum:1; Queue:1,93.8333,61.8964,1,1
+Oppo,oppo,2,2,,100.0,49.5,0,1
+Optiver,optiver,7,7,Design:4; Array:3; Linked List:3; Dynamic Programming:2; Hash Table:2; Doubly-Linked List:1; Greedy:1; Math:1; Queue:1; String:1,89.4571,60.4093,1,1
+Optum,optum,7,7,Hash Table:3; String:3; Array:1; Database:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Linked List:1; Longest Common Subsequence:1; Sliding Window:1,98.2143,56.2581,0,1
+Oracle,oracle,314,314,Array:153; String:79; Hash Table:71; Dynamic Programming:43; Sorting:42; Depth-First Search:41; Breadth-First Search:38; Math:38; Two Pointers:38; Binary Search:34,43.5363,58.0204,0,1
+Oscar Health,oscar_health,3,3,,83.3333,53.1667,0,1
+Otter.ai,otter_ai,4,4,Array:3; Dynamic Programming:2; Breadth-First Search:1; Brute-Force Search:1; Hash Table:1; Heap (Priority Queue):1; Matrix:1; Memoization:1; String:1; Trie:1,89.625,56.9149,0,1
+Otterai,otterai,4,4,,84.375,56.8,0,1
+Oyo,oyo,8,8,Array:5; Heap (Priority Queue):2; Linked List:2; Sorting:2; Binary Search:1; Binary Tree:1; Brainteaser:1; DP on Trees:1; Depth-First Search:1; Divide and Conquer:1,92.625,49.5938,0,1
+Ozon,ozon,11,11,Array:5; String:4; Hash Table:3; Sorting:3; Stack:3; Bracket Sequences:1; Database:1; Design:1; Dynamic Programming:1; Quicksort:1,84.3455,58.1368,0,1
+Palantir,palantir,29,29,,62.5,54.9,0,1
+Palo Alto Networks,palo_alto_networks,49,49,Array:21; String:18; Hash Table:16; Linked List:9; Sorting:8; Binary Tree:6; Breadth-First Search:6; Depth-First Search:6; Design:6; Math:6,66.7714,55.5642,2,1
+Park,park,3,3,,100.0,53.4333,0,1
+Patreon,patreon,4,4,Array:2; String:2; Data Stream:1; Design:1; Hash Table:1; Quicksort:1; Sorting:1; Stack:1,80.45,61.6953,0,1
+Paycom,paycom,2,2,Array:2; Sorting:2; Hash Table:1,95.3,69.8783,0,1
+Paypal,paypal,106,106,Array:71; String:26; Hash Table:24; Sorting:22; Dynamic Programming:19; Binary Search:16; Two Pointers:15; Greedy:12; Math:11; Breadth-First Search:10,57.9358,57.0545,1,1
+Paypay,paypay,6,6,Array:4; Binary Search:2; String:2; Binary Indexed Tree:1; Borůvka's Algorithm:1; Dynamic Programming:1; Graph Theory:1; Kruskal's Algorithm:1; Minimum Spanning Tree:1; Ordered Set:1,88.8333,57.861,0,1
+Paytm,paytm,31,31,Array:15; String:9; Two Pointers:8; Stack:7; Dynamic Programming:6; Greedy:6; Hash Table:6; Binary Search:4; Monotonic Stack:4; Bit Manipulation:3,80.0194,57.7869,0,1
+Payu,payu,2,2,Math:1; Simulation:1,81.25,69.95,0,1
+Peak6,peak6,2,2,Array:2; Enumeration:1; Simulation:1,100.0,42.2966,0,1
+Pega,pega,1,1,,100.0,69.1,0,1
+Peloton,peloton,2,2,Array:2; Design:2; Hash Table:2; Math:2; Randomized:2,100.0,46.1204,0,1
+Persistent Systems,persistent_systems,9,9,String:5; Array:4; Hash Table:3; Sorting:2; Two Pointers:2; Bit Manipulation:1; Bracket Sequences:1; Dynamic Programming:1; Manacher:1; Sliding Window:1,90.2778,55.3739,0,1
+Philips,philips,3,3,,100.0,52.1667,0,1
+Phonepe,phonepe,104,104,Array:67; Dynamic Programming:29; Hash Table:21; Sorting:19; String:19; Breadth-First Search:18; Depth-First Search:15; Graph Theory:14; Binary Search:12; Greedy:12,68.3558,52.4231,7,1
+Pickrr,pickrr,1,1,,100.0,34.6,0,1
+Pinterest,pinterest,46,46,Array:30; Sorting:15; String:13; Hash Table:11; Heap (Priority Queue):9; Breadth-First Search:8; Depth-First Search:7; Dynamic Programming:7; Two Pointers:7; Backtracking:6,64.2957,59.2827,7,1
+Plaid,plaid,1,1,,100.0,69.2,0,1
+Playsimple,playsimple,1,1,,100.0,57.8,0,1
+Pocket Gems,pocket_gems,15,15,Array:8; Hash Table:7; String:7; Sorting:5; Depth-First Search:3; Heap (Priority Queue):3; Breadth-First Search:2; Bucket Sort:2; Counting:2; Divide and Conquer:2,100.0,56.5667,0,1
+Point72,point72,6,6,Database:5; Array:1; Bit Manipulation:1; Greedy:1; Prefix Sum:1,100.0,63.75,0,1
+Polar,polar,1,1,,100.0,31.3,0,1
+Pony.ai,pony_ai,4,4,Array:4; Binary Search:3; Sorting:3; Dynamic Programming:2; Greedy:2; Heap (Priority Queue):1; Prefix Sum:1; Sliding Window:1; Two Pointers:1,100.0,55.291,0,1
+Ponyai,ponyai,4,4,,100.0,55.2,0,1
+Pornhub,pornhub,11,11,Array:6; Dynamic Programming:3; String:3; Two Pointers:3; Greedy:2; Hash Table:2; Matrix:2; Boyer–Moore Majority Vote Algorithm:1; Bracket Sequences:1; Breadth-First Search:1,98.7727,52.7211,0,1
+Porter,porter,3,3,,91.6667,51.7333,0,1
+Poshmark,poshmark,4,4,Array:2; Database:2; Greedy:1; Matrix:1; Monotonic Stack:1; Simulation:1; Sorting:1; Stack:1,100.0,62.1308,0,1
+Postman,postman,1,1,,100.0,46.7,0,1
+Postmates,postmates,3,3,Sorting:2; String:2; Array:1; Binary Search:1; Counting:1; Hash Table:1; Math:1; Sliding Window:1,100.0,60.0,0,1
+Poynt,poynt,1,1,,100.0,66.7,0,1
+Publicis Sapient,publicis_sapient,9,9,Array:7; Hash Table:4; String:4; Dynamic Programming:2; Greedy:2; Sliding Window:2; Sorting:2; Two Pointers:2; Math:1; Monotonic Stack:1,93.3222,55.5883,0,1
+Pubmatic,pubmatic,2,2,Array:2; Dynamic Programming:1; Greedy:1; Two Pointers:1,100.0,55.6975,0,1
+Pure,pure,1,1,,100.0,76.8,0,1
+Pure Storage,pure_storage,8,8,Array:3; Design:3; Dynamic Programming:3; String:3; Hash Table:2; Math:2; Two Pointers:2; Binary Search:1; Counting:1; Data Stream:1,85.275,53.5286,0,1
+Purplle,purplle,1,1,,100.0,43.2,0,1
+Pwc,pwc,4,4,Array:3; Hash Table:2; String:2; Binary Search:1; Divide and Conquer:1; Math:1; Trie:1,87.5,55.0145,0,1
+Qualcomm,qualcomm,60,60,Array:20; Two Pointers:13; String:12; Linked List:9; Math:9; Dynamic Programming:8; Divide and Conquer:6; Hash Table:6; Sorting:6; Bit Manipulation:5,74.6867,59.4853,0,1
+Qualtrics,qualtrics,5,5,Array:3; Matrix:2; Breadth-First Search:1; Depth-First Search:1; Dynamic Programming:1; Enumeration:1; Hash Table:1; Math:1; Simulation:1; Sliding Window:1,85.0,58.6453,0,1
+Qualys,qualys,1,1,,100.0,57.1,0,1
+Quantcast,quantcast,1,1,,100.0,69.1,0,1
+Quantiphi,quantiphi,1,1,,100.0,50.2,0,1
+Quince,quince,5,5,,92.5,55.64,2,1
+Quora,quora,19,19,Array:12; Hash Table:7; String:7; Math:6; Design:5; Heap (Priority Queue):3; Sorting:3; Counting:2; Matrix:2; Prefix Sum:2,99.3737,61.0897,0,1
+Rackspace,rackspace,1,1,,100.0,42.1,0,1
+Radius,radius,1,1,,100.0,63.2,0,1
+Rakuten,rakuten,7,7,Array:4; Dynamic Programming:2; Math:2; Matrix:2; Two Pointers:2; Backtracking:1; Breadth-First Search:1; Design:1; Doubly-Linked List:1; Hash Table:1,91.6,61.3928,0,1
+Rally Health,rally_health,1,1,,100.0,57.8,0,1
+Ramp 2,ramp_2,3,3,,83.3333,53.1,0,1
+Razorpay,razorpay,13,13,Array:6; Binary Search:4; Hash Table:3; Math:3; Sorting:3; Counting:2; Dynamic Programming:2; Stack:2; String:2; Two Pointers:2,80.8462,56.5955,0,1
+Rbc,rbc,2,2,Array:2; Dynamic Programming:1; Matrix:1; Simulation:1,100.0,57.2947,0,1
+Redbus,redbus,2,2,Database:1,100.0,57.9721,0,1
+Reddit,reddit,5,5,Design:3; Hash Table:3; Data Stream:2; Array:1; Bidirectional Search:1; Binary Search:1; Breadth-First Search:1; Doubly-Linked List:1; Enumeration:1; Linked List:1,89.98,59.4695,0,1
+Redfin,redfin,2,2,,100.0,62.55,0,1
+Reliance Retails,reliance_retails,1,1,,100.0,84.4,0,1
+Remitly,remitly,5,5,Array:3; Hash Table:2; String:2; Breadth-First Search:1; Depth-First Search:1; Dynamic Programming:1; Graph Theory:1; Quicksort:1; Sorting:1; Topological Sort:1,76.58,56.838,0,1
+Remotestate,remotestate,1,1,,100.0,60.3,0,1
+Retailmenot,retailmenot,1,1,,100.0,35.6,0,1
+Revolut,revolut,12,12,Array:6; Binary Search:4; Hash Table:4; String:4; Math:3; Design:2; Dynamic Programming:2; Prefix Sum:2; Sliding Window:2; Backtracking:1,85.05,61.011,0,1
+Riot Games,riot_games,5,5,Array:4; Hash Table:3; Matrix:3; Simulation:2; Algorithm X:1; Backtracking:1; Counting:1; Dancing Links:1; Sorting:1; String:1,91.18,67.3229,0,1
+Ripple,ripple,8,8,Array:3; Stack:3; String:3; Sorting:2; Binary Search:1; Math:1; Monotonic Stack:1; Quicksort:1; Recursion:1; Two Pointers:1,91.375,54.3625,0,1
+Rippling,rippling,30,30,Array:17; Hash Table:13; String:13; Design:8; Depth-First Search:6; Breadth-First Search:5; Linked List:5; Sorting:5; Union-Find:5; Heap (Priority Queue):4,64.0067,57.3048,4,1
+Rivian,rivian,9,9,Array:3; String:3; Hash Table:2; Linked List:2; Matrix:2; Breadth-First Search:1; Depth-First Search:1; Design:1; Divide and Conquer:1; Doubly-Linked List:1,90.8111,62.0139,0,1
+Robinhood,robinhood,15,15,Array:13; Hash Table:6; Depth-First Search:4; String:4; Breadth-First Search:3; Counting:3; Heap (Priority Queue):3; Sorting:3; Bucket Sort:2; Matrix:2,90.9133,63.9664,0,1
+Roblox,roblox,56,56,Array:40; Hash Table:22; String:13; Design:8; Math:8; Matrix:8; Sorting:8; Counting:7; Binary Search:6; Sliding Window:6,63.6696,60.2754,0,1
+Rokt,rokt,6,6,String:5; Stack:4; Math:2; Recursion:2; Array:1; Bracket Sequences:1; Data Stream:1; Design:1; Doubly-Linked List:1; Dynamic Programming:1,85.2,47.5909,0,1
+Roku,roku,19,19,Array:9; Stack:6; String:6; Breadth-First Search:3; Dynamic Programming:3; Hash Table:3; Math:3; Simulation:3; Sorting:3; Two Pointers:3,86.2316,52.4681,0,1
+Rubrik,rubrik,37,37,Array:20; Hash Table:12; Math:10; String:8; Sorting:7; Design:6; Dynamic Programming:5; Two Pointers:5; Breadth-First Search:4; Combinatorics:4,54.0108,50.3914,0,1
+Rupeek,rupeek,1,1,,100.0,48.7,0,1
+Salesforce,salesforce,202,202,Array:112; String:51; Hash Table:49; Dynamic Programming:41; Sorting:35; Depth-First Search:26; Binary Search:25; Heap (Priority Queue):23; Greedy:22; Stack:22,50.8515,57.1491,9,1
+Sambanova,sambanova,1,1,,100.0,83.1,0,1
+Samsara,samsara,5,5,Array:3; Sliding Window:2; Hash Table:1; Matrix:1,90.0,57.3451,0,1
+Samsung,samsung,63,63,Array:42; Dynamic Programming:15; Hash Table:11; Two Pointers:11; Breadth-First Search:10; Sorting:10; String:10; Heap (Priority Queue):9; Matrix:9; Binary Search:8,74.3778,54.9865,0,1
+Sap,sap,42,42,Array:24; Dynamic Programming:8; String:8; Hash Table:7; Two Pointers:7; Binary Search:5; Linked List:5; Math:5; Matrix:5; Stack:5,71.4262,56.0775,0,1
+Scale Ai,scale_ai,1,1,Array:1; Greedy:1,100.0,48.4286,0,1
+Scaler,scaler,3,3,,100.0,54.6667,0,1
+Schlumberger,schlumberger,1,1,,100.0,74.1,0,1
+Schneider Electric,schneider_electric,1,1,,100.0,28.5,0,1
+Schrodinger,schrodinger,1,1,,100.0,51.0,0,1
+Sentry,sentry,2,2,Array:2; Binary Search:1; Data Stream:1; Design:1; Queue:1; Simulation:1; String:1,87.6,60.7101,0,1
+Servicenow,servicenow,73,73,Array:40; String:18; Hash Table:17; Dynamic Programming:15; Two Pointers:11; Breadth-First Search:9; Stack:9; Greedy:8; Depth-First Search:7; Sorting:7,65.4671,57.2378,0,1
+Sharechat,sharechat,2,2,Array:1; Binary Search:1; Binary Tree:1; Breadth-First Search:1; Counting:1; Depth-First Search:1; Hash Table:1; Tree:1,100.0,70.0,0,1
+Shift Technology,shift_technology,2,2,,100.0,61.7,0,1
+Shipsy,shipsy,1,1,,100.0,39.4,0,1
+Shopback,shopback,2,2,,93.75,53.75,0,1
+Shopee,shopee,8,8,Array:4; Binary Search:2; Breadth-First Search:2; Design:2; Dynamic Programming:2; Hash Table:2; String:2; Two Pointers:2; Binary Search Tree:1; Binary Tree:1,90.1375,49.7519,0,1
+Shopify,shopify,6,6,Hash Table:4; Design:3; Array:2; String:2; Doubly-Linked List:1; Dynamic Programming:1; Hash Function:1; Linked List:1; Simulation:1; Sorting:1,71.7667,60.4883,0,1
+Shopup,shopup,1,1,,100.0,73.6,0,5
+Siemens,siemens,23,23,Array:12; String:6; Hash Table:5; Sorting:5; Greedy:3; Heap (Priority Queue):3; Two Pointers:3; Binary Indexed Tree:2; Bracket Sequences:2; Breadth-First Search:2,78.8522,55.9806,0,1
+Sig,sig,11,11,Array:10; Hash Table:4; Matrix:3; Simulation:3; Binary Search:2; Design:2; Ordered Set:2; String:2; Two Pointers:2; Binary Indexed Tree:1,86.8455,57.8428,0,1
+Sigmoid,sigmoid,16,16,Array:11; Breadth-First Search:4; Dynamic Programming:3; Sorting:3; Stack:3; String:3; Greedy:2; Matrix:2; Two Pointers:2; Binary Tree:1,83.8875,60.8372,0,1
+Singlestore,singlestore,2,2,,93.75,40.25,0,1
+Sixt,sixt,1,1,,100.0,45.2,0,1
+Slice,slice,1,1,Array:1; Bubble Sort:1; Quicksort:1; Sorting:1; Two Pointers:1,100.0,70.0844,0,1
+Smartnews,smartnews,2,2,Design:1; Doubly-Linked List:1; Hash Table:1; Linked List:1,100.0,54.6172,0,1
+Smartsheet,smartsheet,1,1,Array:1; Hash Table:1; Sorting:1; String:1,100.0,73.1291,0,1
+Snap,snap,80,80,Array:39; String:31; Hash Table:21; Breadth-First Search:17; Depth-First Search:17; Dynamic Programming:14; Matrix:14; Math:12; Sorting:9; Stack:9,71.7562,54.5548,2,1
+Snapchat,snapchat,84,84,,71.4286,54.6988,1,1
+Snapdeal,snapdeal,2,2,Array:1; Binary Search:1; Binary Tree:1; DP on Trees:1; Depth-First Search:1; Dynamic Programming:1; Hash Table:1; Tree:1,100.0,58.0216,0,1
+Snowflake,snowflake,104,104,Array:52; String:29; Depth-First Search:28; Hash Table:26; Breadth-First Search:19; Design:19; Dynamic Programming:15; Sorting:12; Tree:12; Binary Search:11,59.1308,56.4956,2,1
+Societe Generale,societe_generale,4,4,Dynamic Programming:2; String:2; Array:1; Backtracking:1; Greedy:1; Hash Table:1; Math:1; Memoization:1,89.825,55.4866,0,1
+Sofi,sofi,15,15,Array:9; Hash Table:7; String:5; Two Pointers:3; Breadth-First Search:2; Counting:2; Design:2; Divide and Conquer:2; Dynamic Programming:2; Heap (Priority Queue):2,87.3733,54.3031,0,1
+Softwire,softwire,2,2,String:2; Dynamic Programming:1; Hash Table:1; Manacher:1; Two Pointers:1,100.0,46.6178,0,1
+Sonatus,sonatus,3,3,,100.0,55.0667,1,1
+Sony,sony,5,5,Array:3; Math:3; Hash Table:2; Binary Search:1; Binary Tree:1; Bracket Sequences:1; Counting:1; Dynamic Programming:1; Game Theory:1; Prefix Sum:1,100.0,59.8843,0,1
+Soti,soti,1,1,Array:1; Greedy:1,100.0,29.24,0,1
+Soundhound,soundhound,3,3,Array:1; Binary Tree:1; Depth-First Search:1; Linked List:1; Tree:1,100.0,50.9,0,1
+Spacex,spacex,1,1,,100.0,68.5,0,1
+Spinny,spinny,7,7,,92.8571,59.7857,0,1
+Splunk,splunk,11,11,Array:6; Hash Table:3; String:3; Binary Search:2; Breadth-First Search:2; Depth-First Search:2; Design:2; Heap (Priority Queue):2; Sliding Window:2; Sorting:2,89.9364,52.3305,0,1
+Spotify,spotify,14,14,Array:5; Hash Table:5; String:5; Heap (Priority Queue):3; Sorting:3; Data Stream:2; Database:2; Design:2; Sliding Window:2; Two Pointers:2,76.9357,55.3448,0,1
+Sprinklr,sprinklr,45,45,Array:26; Dynamic Programming:22; Stack:9; String:9; Hash Table:8; Depth-First Search:6; Monotonic Stack:6; Tree:6; Bit Manipulation:5; Math:5,74.9689,50.7311,2,1
+Square,square,11,11,,97.7273,56.9636,0,1
+Squarepoint Capital,squarepoint_capital,27,27,Array:19; Dynamic Programming:11; Greedy:7; Hash Table:5; Sorting:5; String:5; Binary Search:3; Counting:3; Math:3; Matrix:3,77.2222,57.3769,0,1
+Squarespace,squarespace,5,5,Array:3; Hash Table:2; Linked List:2; Sorting:2; Design:1; Doubly-Linked List:1; Prefix Sum:1; Quicksort:1; Recursion:1; Two Pointers:1,81.36,55.0787,0,1
+Stackadapt,stackadapt,3,3,Design:2; Data Stream:1; Doubly-Linked List:1; Hash Table:1; Heap (Priority Queue):1; Linked List:1; Sorting:1; Two Pointers:1,100.0,46.441,0,1
+Stackline,stackline,2,2,Array:1; Breadth-First Search:1; Depth-First Search:1; Graph Theory:1; Greedy:1; Heap (Priority Queue):1; Sorting:1; Topological Sort:1,90.4,48.1695,0,1
+Starbucks,starbucks,2,2,,100.0,59.7,0,1
+State Farm,state_farm,1,1,,100.0,51.8,0,1
+Strava,strava,1,1,,100.0,48.9,0,5
+Stripe,stripe,13,13,Array:9; String:6; Sorting:5; Hash Table:4; Breadth-First Search:3; Graph Theory:3; Depth-First Search:2; Dynamic Programming:2; Shortest Path:2; Simulation:2,79.4,55.2931,0,1
+Sumo Logic,sumo_logic,3,3,Array:3; Union-Find:2; Depth-First Search:1; Graph Theory:1; Heap (Priority Queue):1; Monotonic Queue:1; Ordered Set:1; Queue:1; Sliding Window:1; String:1,90.1667,59.9008,0,1
+Sumologic,sumologic,3,3,,87.5,59.8,0,1
+Swiggy,swiggy,37,37,Array:22; Hash Table:12; Dynamic Programming:10; Sorting:9; String:7; Math:5; Two Pointers:5; Stack:4; Binary Search:3; Monotonic Stack:3,73.1703,54.983,0,1
+Syfe,syfe,1,1,,100.0,60.1,0,1
+Symantec,symantec,1,1,,100.0,52.0,0,1
+Synopsys,synopsys,1,1,Array:1; Hash Table:1,100.0,57.9048,0,1
+Ta Digital,ta_digital,1,1,,100.0,51.5,0,5
+Tableau,tableau,1,1,,100.0,60.4,0,1
+Tanium,tanium,2,2,Array:1; Breadth-First Search:1; Depth-First Search:1; String:1; Two Pointers:1,90.3,69.5812,0,1
+Target,target,7,7,Array:5; String:3; Sorting:2; Bubble Sort:1; Bucket Sort:1; Counting:1; Data Stream:1; Depth-First Search:1; Design:1; Divide and Conquer:1,90.0,60.4249,0,1
+Tcs,tcs,263,263,Array:139; Hash Table:54; String:46; Sorting:43; Math:39; Two Pointers:38; Dynamic Programming:33; Binary Search:26; Linked List:19; Database:17,46.0118,61.1931,37,1
+Tech Mahindra,tech_mahindra,4,4,Array:3; Dynamic Programming:2; Divide and Conquer:1; Hash Table:1,100.0,50.2258,0,1
+Techolution,techolution,1,1,,100.0,41.2,0,1
+Tekion,tekion,27,27,Array:18; Hash Table:9; String:8; Dynamic Programming:7; Prefix Sum:7; Two Pointers:7; Binary Search:6; Greedy:4; Sorting:4; Stack:4,86.537,53.2694,1,1
+Tencent,tencent,6,6,Array:1; Dynamic Programming:1; Greedy:1; Math:1; Memoization:1; Prime Factorization:1; Recursion:1; Stack:1; String:1,81.25,49.55,0,1
+Teradata,teradata,5,5,Array:5; Binary Search:3; Dynamic Programming:2; Greedy:2; Sorting:2; Two Pointers:2; Bit Manipulation:1; Memoization:1; Prefix Sum:1; Queue:1,87.88,60.0721,2,1
+Tesco,tesco,2,2,Array:2; Quicksort:1; Sorting:1,85.15,49.1163,0,1
+Tesla,tesla,42,42,Array:22; Hash Table:16; String:13; Breadth-First Search:7; Design:7; Math:6; Stack:6; Depth-First Search:5; Matrix:5; Sorting:5,73.3786,56.352,0,1
+Texas Instruments,texas_instruments,6,6,Array:2; Divide and Conquer:1; Dynamic Programming:1; Hash Table:1; Heap (Priority Queue):1; Linked List:1; Matrix:1; Quickselect:1; Sliding Window:1; Sorting:1,92.0833,59.9402,0,1
+The Trade Desk,the_trade_desk,6,6,Array:3; Hash Table:3; String:3; Simulation:2; Bidirectional Search:1; Breadth-First Search:1; Design:1; Matrix:1; Trie:1; Two Pointers:1,92.3667,57.1604,0,1
+Thomson Reuters,thomson_reuters,2,2,String:2; Greedy:1; Sliding Window:1,100.0,65.5,0,1
+Thoughtspot,thoughtspot,5,5,Array:2; Depth-First Search:2; Hash Table:2; Tree:2; Bit Manipulation:1; Monotonic Stack:1; Range Minimum/Maximum Query:1; Sliding Window:1; Stack:1; String:1,83.26,50.2374,0,1
+Thoughtworks,thoughtworks,4,4,Array:2; Bit Manipulation:1; Hash Function:1; Hash Table:1; Rolling Hash:1; String Matching:1,91.9,48.679,0,1
+Thousandeyes,thousandeyes,3,3,Array:2; Design:1; Doubly-Linked List:1; Dynamic Programming:1; Hash Table:1; Linked List:1; Monotonic Stack:1; Prefix Sum:1; Stack:1; Two Pointers:1,100.0,61.577,0,1
+Thumbtack,thumbtack,1,1,,100.0,61.4,0,1
+Tiaa,tiaa,1,1,,100.0,80.1,0,1
+Tiger Analytics,tiger_analytics,3,3,Array:3; Dynamic Programming:1; Hash Table:1,97.6667,54.3935,0,1
+Tiktok,tiktok,353,353,Array:202; String:89; Hash Table:75; Dynamic Programming:66; Depth-First Search:52; Breadth-First Search:48; Math:44; Sorting:44; Two Pointers:42; Matrix:37,47.3768,56.774,8,1
+Tinder,tinder,3,3,Data Stream:2; Design:2; Heap (Priority Queue):2; Array:1; Binary Search Tree:1; Binary Tree:1; Simulation:1; Sorting:1; String:1; Tree:1,91.6667,55.9579,0,1
+Tinkoff,tinkoff,21,21,Array:9; String:8; Hash Table:5; Two Pointers:4; Stack:3; Binary Search:2; Depth-First Search:2; Dynamic Programming:2; Matrix:2; Sliding Window:2,88.3714,56.7211,0,1
+Toast,toast,5,5,Array:3; Dynamic Programming:2; Bracket Sequences:1; Graph Theory:1; Greedy:1; Hash Table:1; Interactive:1; Stack:1; String:1; Two Pointers:1,87.5,56.0255,0,1
+Tokopedia,tokopedia,1,1,,100.0,51.2,0,1
+Tomtom,tomtom,4,4,,84.375,46.65,0,1
+Toptal,toptal,3,3,Dynamic Programming:2; String:2; Bit Manipulation:1; Brainteaser:1; Math:1; Probability and Statistics:1; Simulation:1,90.6,61.1624,0,1
+Tower Research,tower_research,3,3,,100.0,62.0667,0,1
+Tower Research Capital,tower_research_capital,3,3,Array:2; Breadth-First Search:2; Depth-First Search:2; String:2; Bellman–Ford Algorithm:1; Floyd–Warshall Algorithm:1; Graph Theory:1; Greedy:1; Hash Table:1; Matrix:1,100.0,62.1376,0,1
+Toyota,toyota,1,1,,100.0,49.7,0,1
+Tracxn,tracxn,1,1,,100.0,43.3,0,5
+Traveloka,traveloka,1,1,,100.0,47.2,0,5
+Trend Micro,trend_micro,1,1,,100.0,39.0,0,1
+Trexquant,trexquant,4,4,Array:2; Backtracking:1; Binary Search:1; Greedy:1; Hash Table:1; Math:1; Sorting:1; String:1; Two Pointers:1,91.9,51.2603,0,1
+Trilogy,trilogy,7,7,Array:5; Bit Manipulation:4; String:2; Bitmask:1; Brainteaser:1; Dynamic Programming:1; Euclidean Algorithm:1; Greatest Common Divisor:1; Hash Table:1; Math:1,100.0,53.1192,0,1
+Tripactions,tripactions,1,1,,100.0,66.7,0,1
+Tripadvisor,tripadvisor,6,6,Hash Table:3; String:3; Design:2; Stack:2; Array:1; Bracket Sequences:1; Counting:1; Doubly-Linked List:1; Linked List:1,87.5,58.2467,0,1
+Triplebyte,triplebyte,1,1,,100.0,71.1,0,1
+Turing,turing,38,38,Array:24; Hash Table:10; Dynamic Programming:9; String:7; Math:5; Binary Search:4; Greedy:4; Sorting:4; Counting:3; Divide and Conquer:3,66.9632,51.6981,0,1
+Turvo,turvo,2,2,Array:2; Dynamic Programming:1; Enumeration:1,100.0,72.65,0,1
+Tusimple,tusimple,4,4,Array:3; Hash Table:2; Backtracking:1; Bit Manipulation:1; Combinatorics:1; Counting:1; Dynamic Programming:1; Enumeration:1; Knapsack Problem:1; Math:1,100.0,52.3,0,1
+Twilio,twilio,11,11,Array:7; String:6; Sorting:4; Hash Table:3; Heap (Priority Queue):3; Greedy:2; Prefix Sum:2; Binary Search:1; Binary Tree:1; Breadth-First Search:1,93.0545,63.3241,1,1
+Twitch,twitch,7,7,Design:3; Sorting:3; Array:2; Data Stream:2; Hash Table:2; Heap (Priority Queue):2; Two Pointers:2; Database:1; Doubly-Linked List:1; Dynamic Programming:1,100.0,55.8649,0,1
+Twitter,twitter,51,51,,99.7549,58.1686,0,1
+Two Sigma,two_sigma,19,19,Array:12; Dynamic Programming:6; String:5; Sorting:4; Binary Search:3; Depth-First Search:3; Hash Table:3; Math:3; Matrix:3; Prefix Sum:3,91.4316,54.2368,0,1
+Uber,uber,371,371,Array:230; Hash Table:88; String:85; Breadth-First Search:63; Depth-First Search:60; Dynamic Programming:57; Sorting:55; Matrix:48; Binary Search:47; Graph Theory:41,45.7547,56.7537,4,1
+Ubisoft,ubisoft,1,1,,100.0,56.1,0,1
+Ubs,ubs,4,4,Array:3; String:3; Sorting:2; Binary Search:1; Bracket Sequences:1; Depth-First Search:1; Hash Table:1; Heap (Priority Queue):1; Stack:1; Tree:1,91.35,59.7612,0,1
+Udemy,udemy,7,7,,92.8571,58.5571,0,1
+Uipath,uipath,15,15,Array:10; Dynamic Programming:5; Breadth-First Search:3; Depth-First Search:3; Hash Table:3; String:3; Binary Search:2; Graph Theory:2; Matrix:2; Sorting:2,91.1,54.0671,0,1
+Ukg,ukg,11,11,Array:6; String:5; Sorting:4; Greedy:3; Hash Table:3; Math:3; Binary Indexed Tree:2; Counting:2; Geometry:2; Prefix Sum:2,83.3091,51.4864,0,1
+Unbxd,unbxd,1,1,,100.0,66.2,0,1
+Unifyapps,unifyapps,1,1,,100.0,48.8,0,1
+Unity,unity,2,2,Math:2; Array:1; Game Theory:1; Greedy:1; Number Theory:1; String:1,95.25,54.977,0,1
+Unstop,unstop,1,1,,100.0,59.3,0,1
+Upstart,upstart,6,6,Array:5; Dynamic Programming:2; Hash Table:2; Matrix:2; String:2; Design:1; Divide and Conquer:1; Prefix Sum:1; Sorting:1; Stack:1,74.3833,60.2082,1,1
+Urban Company,urban_company,7,7,Array:6; Binary Search:2; Breadth-First Search:2; Depth-First Search:2; Dynamic Programming:2; Greedy:2; Stack:2; String:2; Bellman–Ford Algorithm:1; Floyd–Warshall Algorithm:1,90.4571,57.5536,0,1
+USAA,usaa,3,3,String:3; Array:2; Bracket Sequences:1; Sorting:1; Stack:1; Trie:1; Two Pointers:1,93.2,48.5585,0,1
+Ust,ust,1,1,,100.0,44.5,0,1
+Valve,valve,4,4,String:2; Counting:1; Design:1; Greedy:1; Queue:1; Simulation:1,90.1,55.6922,0,1
+Veeva,veeva,1,1,,100.0,63.3,0,1
+Veeva Systems,veeva_systems,1,1,String:1,100.0,63.6201,0,1
+Verily,verily,11,11,Array:8; Hash Table:7; Sorting:4; Dynamic Programming:3; Math:3; String:3; Design:2; Geometry:2; Greedy:2; A* Search:1,92.7545,51.5417,0,1
+Veritas,veritas,1,1,Array:1; Prefix Sum:1; String:1,100.0,53.8,0,1
+Verizon,verizon,6,6,,87.5,68.3,0,1
+Verkada,verkada,19,19,Array:10; Hash Table:6; String:6; Design:4; Math:4; Sorting:4; Binary Search:3; Linked List:3; Depth-First Search:2; Divide and Conquer:2,88.3579,58.4016,0,1
+Viasat,viasat,2,2,,93.75,53.15,0,1
+Vimeo,vimeo,7,7,Array:3; Design:2; Stack:2; Bit Manipulation:1; Bracket Sequences:1; Breadth-First Search:1; Depth-First Search:1; Divide and Conquer:1; Doubly-Linked List:1; Dynamic Programming:1,100.0,49.2163,0,1
+Virtu,virtu,5,5,,97.5,63.56,0,1
+Virtu Financial,virtu_financial,6,6,String:4; Math:3; Array:2; Bracket Sequences:1; Greedy:1; Simulation:1; Sorting:1; Stack:1,96.15,60.3936,0,1
+Virtusa,virtusa,6,6,Array:4; Hash Table:4; String:3; Math:2; Counting:1; Sliding Window:1; Sorting:1; Trie:1; Two Pointers:1,98.0167,52.5872,0,1
+Visa,visa,147,147,Array:100; String:39; Hash Table:37; Dynamic Programming:32; Sorting:27; Greedy:19; Matrix:19; Two Pointers:19; Heap (Priority Queue):16; Math:16,59.2306,58.002,3,1
+Vk,vk,13,13,Array:7; String:5; Two Pointers:4; Hash Table:3; Sliding Window:3; Dynamic Programming:2; Binary Tree:1; Bracket Sequences:1; Breadth-First Search:1; Depth-First Search:1,80.5538,54.1017,0,1
+Vmware,vmware,8,8,Array:4; Binary Search:3; Design:2; Greedy:2; Hash Table:2; String:2; Divide and Conquer:1; Doubly-Linked List:1; Dynamic Programming:1; Heap (Priority Queue):1,100.0,51.1352,0,1
+Walmart Labs,walmart_labs,156,156,Array:87; Hash Table:39; String:37; Dynamic Programming:24; Sorting:23; Two Pointers:21; Breadth-First Search:17; Depth-First Search:15; Math:15; Binary Search:14,64.5571,56.9701,3,1
+Warnermedia,warnermedia,9,9,Hash Table:3; Array:2; Math:2; String:2; Database:1; Depth-First Search:1; Design:1; Divide and Conquer:1; Heap (Priority Queue):1; Iterator:1,91.4667,59.7688,0,1
+Wayfair,wayfair,20,20,String:10; Array:6; Hash Table:6; Sorting:4; Counting:3; Database:3; Greedy:3; Math:3; Simulation:3; Dynamic Programming:2,87.34,59.4524,0,1
+Waymo,waymo,29,29,Array:24; Hash Table:9; Matrix:7; Sorting:7; Design:6; Breadth-First Search:5; Binary Search:4; Dynamic Programming:4; String:4; Depth-First Search:3,75.4345,52.7551,0,1
+Wayve,wayve,1,1,,100.0,48.1,0,1
+Wealthfront,wealthfront,1,1,Counting:1; Hash Table:1; String:1,100.0,73.1,0,5
+Wells Fargo,wells_fargo,23,23,String:10; Array:7; Hash Table:5; Two Pointers:5; Design:3; Linked List:3; Simulation:3; Sorting:3; Stack:3; Backtracking:2,81.4913,56.8198,0,1
+Weride,weride,10,10,Array:7; Depth-First Search:5; Breadth-First Search:4; Matrix:3; Binary Search:2; Dynamic Programming:2; Graph Theory:2; Hash Table:2; Heap (Priority Queue):2; Simulation:2,88.16,56.6778,0,1
+Western Digital,western_digital,1,1,Array:1; Hash Table:1,100.0,57.9048,0,1
+Whatfix,whatfix,1,1,,100.0,47.6,0,1
+Whatnot,whatnot,13,13,Array:9; Sorting:5; String:5; Matrix:4; Two Pointers:3; Binary Search:2; Depth-First Search:2; Divide and Conquer:2; Dynamic Programming:2; Greedy:2,76.9538,58.6207,0,1
+Winzo,winzo,1,1,,100.0,70.2,0,1
+Wipro,wipro,20,20,Array:9; String:9; Hash Table:5; Math:5; Sorting:5; Simulation:2; Two Pointers:2; Bit Manipulation:1; Bracket Sequences:1; Bucket Sort:1,72.86,60.3348,0,1
+Wise,wise,6,6,Array:6; Binary Search:2; Design:2; Hash Table:2; Matrix:2; Data Stream:1; Dynamic Programming:1; Math:1; Prefix Sum:1; Queue:1,90.85,55.0944,0,1
+Wish,wish,5,5,Array:3; Database:2; Binary Search:1; Greedy:1; Hash Table:1; Heap (Priority Queue):1; Math:1; Ordered Set:1; Simulation:1,100.0,50.0662,0,1
+Wissen,wissen,2,2,,100.0,50.75,0,1
+Wissen Technology,wissen_technology,11,11,Array:8; Hash Table:6; String:4; Matrix:3; Sorting:3; Two Pointers:3; Sliding Window:2; Binary Search:1; Bucket Sort:1; Counting:1,95.7727,57.223,0,1
+Wix,wix,56,56,Array:31; String:22; Hash Table:18; Depth-First Search:11; Breadth-First Search:9; Math:9; Two Pointers:9; Binary Tree:8; Dynamic Programming:8; Tree:8,84.3268,58.2677,0,1
+Workday,workday,6,6,Array:5; Sorting:3; Greedy:2; Hash Table:2; String:2; Two Pointers:2; Backtracking:1; Bubble Sort:1; Bucket Sort:1; Counting:1,87.9,67.4116,0,1
+Works Applications,works_applications,4,4,Array:3; Sorting:3; Greedy:2; Dynamic Programming:1; Heap (Priority Queue):1; String:1; Two Pointers:1,100.0,43.4,0,1
+Worldquant,worldquant,4,4,Heap (Priority Queue):3; Array:2; Sorting:2; Two Pointers:2; Breadth-First Search:1; Data Stream:1; Design:1; Dynamic Programming:1; Greedy:1; Matrix:1,90.625,40.6996,0,1
+Woven By Toyota,woven_by_toyota,1,1,,100.0,46.0,0,1
+X,x,51,51,Array:20; String:15; Hash Table:14; Design:9; Heap (Priority Queue):7; Math:7; Database:6; Dynamic Programming:6; Linked List:6; Breadth-First Search:5,94.3059,58.321,0,1
+Xing,xing,1,1,,100.0,55.3,0,1
+Yahoo,yahoo,33,33,Array:19; Hash Table:9; String:9; Depth-First Search:6; Backtracking:4; Breadth-First Search:4; Design:4; Matrix:4; Sorting:4; Tree:4,88.7061,57.439,0,1
+Yandex,yandex,134,134,Array:70; Hash Table:39; String:31; Two Pointers:28; Sliding Window:17; Sorting:15; Binary Search:14; Math:13; Dynamic Programming:12; Binary Tree:11,49.3284,60.626,4,1
+Yatra,yatra,1,1,,100.0,54.7,0,1
+Yelp,yelp,28,28,String:17; Array:13; Hash Table:12; Sorting:7; Math:4; Breadth-First Search:3; Heap (Priority Queue):3; Two Pointers:3; Backtracking:2; Bidirectional Search:2,97.3821,57.3556,0,1
+Yugabyte,yugabyte,1,1,,100.0,60.9,0,1
+Zalando,zalando,3,3,Array:1; Greedy:1; Quicksort:1; Sorting:1; String:1,95.8333,52.4128,0,1
+Zappos,zappos,1,1,,100.0,84.1,0,1
+Zemoso,zemoso,2,2,,93.75,48.95,0,1
+Zendesk,zendesk,2,2,Math:2; Greedy:1,100.0,30.0,0,1
+Zenefits,zenefits,21,21,Array:9; Breadth-First Search:5; Depth-First Search:4; Stack:4; String:4; Design:3; Divide and Conquer:3; Graph Theory:3; Hash Table:3; Linked List:3,100.0,57.7667,0,1
+Zepto,zepto,23,23,Array:15; Binary Search:5; Depth-First Search:5; Breadth-First Search:4; Hash Table:4; Matrix:4; Sorting:4; Binary Tree:3; Sliding Window:3; Tree:3,83.1522,52.4257,0,1
+Zeta,zeta,30,30,Array:18; Dynamic Programming:12; String:8; Hash Table:7; Binary Search:5; Depth-First Search:4; Greedy:4; Sorting:4; Binary Tree:3; DP on Trees:3,82.2167,53.2537,0,1
+Zeta Suite,zeta_suite,1,1,Array:1,100.0,83.8,0,1
+Zillow,zillow,1,1,Array:1; Math:1; Matrix:1,100.0,80.4852,0,1
+Zip,zip,4,4,,93.75,51.025,0,1
+Ziprecruiter,ziprecruiter,4,4,Array:4; Hash Table:3; Counting:2; Matrix:2; String:2; Breadth-First Search:1; Sorting:1; Trie:1,95.125,61.5415,0,1
+Zluri,zluri,2,2,Array:2; Greedy:2; Monotonic Stack:2; Stack:2; Dynamic Programming:1,100.0,68.45,0,1
+Zocdoc,zocdoc,1,1,,100.0,47.6,0,1
+Zoho,zoho,173,173,Array:88; String:59; Hash Table:39; Dynamic Programming:27; Math:25; Two Pointers:24; Sorting:23; Greedy:17; Matrix:17; Stack:14,55.6665,57.9057,2,1
+Zomato,zomato,31,31,Array:20; Hash Table:7; Matrix:6; Breadth-First Search:5; Greedy:5; Sorting:5; String:5; Binary Search:4; Dynamic Programming:4; Heap (Priority Queue):4,76.3613,53.8099,1,1
+Zoom,zoom,4,4,Database:2; Array:1; Backtracking:1; Design:1; Doubly-Linked List:1; Hash Table:1; Linked List:1; Matrix:1; String:1; Trie:1,92.375,43.2821,0,1
+Zoox,zoox,6,6,Array:3; String:3; Math:2; Breadth-First Search:1; Counting:1; Dynamic Programming:1; Euclidean Algorithm:1; Geometry:1; Greatest Common Divisor:1; Hash Table:1,72.0333,51.0294,0,1
+Zopsmart,zopsmart,16,16,String:10; Two Pointers:4; Greedy:3; Hash Table:3; Stack:3; Array:2; Backtracking:2; Dynamic Programming:2; Linked List:2; Math:2,71.0812,59.884,3,1
+Zs Associates,zs_associates,9,9,Array:2; Database:2; Dynamic Programming:2; Stack:2; String:2; Bracket Sequences:1; Manacher:1; Monotonic Stack:1; Prefix Sum:1; Two Pointers:1,89.4778,49.4114,0,1
+Zscaler,zscaler,16,16,Array:8; Hash Table:6; Math:5; String:4; Bit Manipulation:3; Greedy:3; Linked List:2; Recursion:2; Sliding Window:2; Sorting:2,87.8563,53.9242,0,1
+Zulily,zulily,2,2,,100.0,43.8,0,1
+Zynga,zynga,2,2,Array:1; Bucket Sort:1; Counting:1; Hash Table:1; Heap (Priority Queue):1; Linked List:1; Recursion:1; Sorting:1; String:1; Trie:1,100.0,70.6608,0,1

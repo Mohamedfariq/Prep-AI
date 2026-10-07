@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fc;
+  color: #0f1b2d;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.prepai-bg {
+  background:
+    radial-gradient(circle at 92% 92%, rgba(82, 68, 233, 0.18), transparent 28%),
+    linear-gradient(105deg, #f4f5ff 0%, #fbfcff 52%, #f7f8ff 100%);
+}
+
+.dot-grid {
+  background-color: #f4f8ff;
+  background-image: radial-gradient(#dde7f7 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.card {
+  @apply rounded-[22px] border border-line bg-white shadow-card;
+}
+
+.soft-card {
+  @apply rounded-2xl border border-line bg-white shadow-subtle;
+}
+
+.primary-btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3 font-semibold text-white shadow-subtle transition hover:bg-brandDark disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.secondary-btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[#bdcbe0] bg-white px-5 py-3 font-semibold text-ink transition hover:bg-[#f5f8ff] disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.input-shell {
+  @apply flex items-center gap-3 rounded-xl bg-[#eef3ff] px-4 py-3 text-ink;
+}
+
+.input-shell input,
+.input-shell select {
+  @apply w-full bg-transparent outline-none placeholder:text-[#5c6677];
+}
+
+.metric-icon {
+  @apply flex h-10 w-10 items-center justify-center rounded-xl bg-[#eef3ff] text-brand;
+}
+
+.status-pill {
+  @apply inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm font-medium;
+}
+
+.page-grid {
+  @apply grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px];
+}

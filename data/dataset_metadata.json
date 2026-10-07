@@ -1,0 +1,105 @@
+{
+  "generated_at_utc": "2026-09-23T12:42:18.580421+00:00",
+  "source_file": "Question_Links.txt",
+  "sources": {
+    "snehasishroy-leetcode-companywise-interview-questions": {
+      "source_id": "snehasishroy_leetcode_companywise_interview_questions",
+      "source_url": "https://github.com/snehasishroy/leetcode-companywise-interview-questions",
+      "snapshot_note": "Repository README states data snapshot as of 22 November 2025."
+    },
+    "liquidslr-leetcode-company-wise-problems": {
+      "source_id": "liquidslr_leetcode_company_wise_problems",
+      "source_url": "https://github.com/liquidslr/leetcode-company-wise-problems",
+      "snapshot_note": "Repository README states data updated as of 1 June 2025."
+    }
+  },
+  "observation_rows": 77618,
+  "deduplicated_question_rows": 18669,
+  "company_count": 683,
+  "top_companies_by_question_count": [
+    {
+      "company_key": "google",
+      "question_count": 2361
+    },
+    {
+      "company_key": "amazon",
+      "question_count": 2045
+    },
+    {
+      "company_key": "microsoft",
+      "question_count": 1423
+    },
+    {
+      "company_key": "meta",
+      "question_count": 1420
+    },
+    {
+      "company_key": "bloomberg",
+      "question_count": 1257
+    },
+    {
+      "company_key": "uber",
+      "question_count": 371
+    },
+    {
+      "company_key": "tiktok",
+      "question_count": 353
+    },
+    {
+      "company_key": "oracle",
+      "question_count": 314
+    },
+    {
+      "company_key": "apple",
+      "question_count": 310
+    },
+    {
+      "company_key": "goldman_sachs",
+      "question_count": 273
+    },
+    {
+      "company_key": "tcs",
+      "question_count": 263
+    },
+    {
+      "company_key": "infosys",
+      "question_count": 228
+    },
+    {
+      "company_key": "salesforce",
+      "question_count": 202
+    },
+    {
+      "company_key": "linkedin",
+      "question_count": 179
+    },
+    {
+      "company_key": "ibm",
+      "question_count": 178
+    },
+    {
+      "company_key": "zoho",
+      "question_count": 173
+    },
+    {
+      "company_key": "walmart_labs",
+      "question_count": 156
+    },
+    {
+      "company_key": "adobe",
+      "question_count": 154
+    },
+    {
+      "company_key": "visa",
+      "question_count": 147
+    },
+    {
+      "company_key": "accenture",
+      "question_count": 144
+    }
+  ],
+  "outputs": {
+    "observations_csv": "data/company_question_observations.csv",
+    "deduplicated_csv": "data/company_questions.csv"
+  }
+}

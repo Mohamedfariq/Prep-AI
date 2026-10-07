@@ -1,0 +1,127 @@
+{
+  "validation": {
+    "shape": {
+      "rows": 18669,
+      "columns": 18
+    },
+    "columns": [
+      "company",
+      "company_key",
+      "title",
+      "question_key",
+      "leetcode_url",
+      "difficulty",
+      "topics",
+      "question_id",
+      "frequency_percent",
+      "acceptance_rate_percent",
+      "recency_buckets",
+      "has_thirty_days",
+      "has_three_months",
+      "has_six_months",
+      "has_more_than_six_months",
+      "has_all",
+      "sources",
+      "source_file_count"
+    ],
+    "dtypes": {
+      "company": "string_from_csv",
+      "company_key": "string_from_csv",
+      "title": "string_from_csv",
+      "question_key": "string_from_csv",
+      "leetcode_url": "string_from_csv",
+      "difficulty": "string_from_csv",
+      "topics": "string_from_csv",
+      "question_id": "string_from_csv",
+      "frequency_percent": "string_from_csv",
+      "acceptance_rate_percent": "string_from_csv",
+      "recency_buckets": "string_from_csv",
+      "has_thirty_days": "string_from_csv",
+      "has_three_months": "string_from_csv",
+      "has_six_months": "string_from_csv",
+      "has_more_than_six_months": "string_from_csv",
+      "has_all": "string_from_csv",
+      "sources": "string_from_csv",
+      "source_file_count": "string_from_csv"
+    },
+    "missing_required_columns": [],
+    "missing_values": {
+      "company": 0,
+      "company_key": 0,
+      "title": 0,
+      "question_key": 0,
+      "leetcode_url": 0,
+      "difficulty": 0,
+      "topics": 1469,
+      "question_id": 843,
+      "frequency_percent": 0,
+      "acceptance_rate_percent": 0,
+      "recency_buckets": 0,
+      "has_thirty_days": 0,
+      "has_three_months": 0,
+      "has_six_months": 0,
+      "has_more_than_six_months": 0,
+      "has_all": 0,
+      "sources": 0,
+      "source_file_count": 0
+    },
+    "exact_duplicate_rows": 0,
+    "duplicate_questions_by_identifier": {
+      "question_key": 2471,
+      "question_id": 2388,
+      "leetcode_url": 2471
+    },
+    "duplicate_company_question_pairs": {},
+    "difficulty_unique_values": [
+      "Easy",
+      "Hard",
+      "Medium"
+    ],
+    "topics_structure": {
+      "rows_with_empty_topics": 1469,
+      "min_topics_per_question": 0,
+      "max_topics_per_question": 15,
+      "avg_topics_per_question": 3.1779,
+      "unique_topics": 173
+    },
+    "numeric_checks": {
+      "frequency_percent": {
+        "numeric": 18669,
+        "non_numeric": 0
+      },
+      "acceptance_rate_percent": {
+        "numeric": 18669,
+        "non_numeric": 0
+      }
+    },
+    "recency_field_values": {
+      "has_thirty_days": {
+        "0": 17570,
+        "1": 1099
+      },
+      "has_three_months": {
+        "0": 16152,
+        "1": 2517
+      },
+      "has_six_months": {
+        "0": 14089,
+        "1": 4580
+      },
+      "has_more_than_six_months": {
+        "1": 16526,
+        "0": 2143
+      },
+      "has_all": {
+        "1": 18619,
+        "0": 50
+      }
+    }
+  },
+  "cleaning": {
+    "input_rows": 18669,
+    "output_rows": 18669,
+    "removed_exact_duplicate_records": 0,
+    "duplicate_company_question_rows_preserved_for_review": {},
+    "note": "Question rows are preserved across companies; only exact duplicate records are removed."
+  }
+}
