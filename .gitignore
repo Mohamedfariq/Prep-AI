@@ -1,7 +1,7 @@
 .env
 *.env
 .env.example
-!.env.example
+
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -11,8 +11,11 @@ node_modules/
 dist/
 build/
 .DS_Store
+
 backend/.env
 backend/.env.example
+
 frontend/.env
 frontend/dist/
+
 data/raw/
