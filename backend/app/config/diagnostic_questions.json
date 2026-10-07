@@ -1,0 +1,137 @@
+[
+  {
+    "id": "diag-1",
+    "topic_id": "arrays",
+    "topic_name": "Arrays",
+    "question": "What is the optimal time complexity to find the maximum sum of a contiguous subarray using Kadane's Algorithm?",
+    "options": ["O(1)", "O(log N)", "O(N)", "O(N log N)"],
+    "correct_index": 2,
+    "explanation": "Kadane's algorithm processes each element in a single linear pass maintaining the maximum current and global sums, running in O(N) time."
+  },
+  {
+    "id": "diag-2",
+    "topic_id": "strings",
+    "topic_name": "Strings",
+    "question": "Which data structure or technique allows determining if two strings of length N are anagrams in O(N) time with O(1) auxiliary space (assuming lowercase English alphabets)?",
+    "options": ["Sorting both strings", "Fixed-size frequency array of 26 integers", "Trie insertion", "Suffix automaton"],
+    "correct_index": 1,
+    "explanation": "Counting character frequencies in a static array of size 26 takes O(N) time and constant O(1) space."
+  },
+  {
+    "id": "diag-3",
+    "topic_id": "linked-lists",
+    "topic_name": "Linked Lists",
+    "question": "In Floyd's Cycle Detection Algorithm (Tortoise and Hare) for linked lists, what is the space complexity?",
+    "options": ["O(N)", "O(log N)", "O(1)", "O(N^2)"],
+    "correct_index": 2,
+    "explanation": "Floyd's algorithm uses only two pointers (slow and fast), requiring O(1) auxiliary memory."
+  },
+  {
+    "id": "diag-4",
+    "topic_id": "stacks-queues",
+    "topic_name": "Stacks & Queues",
+    "question": "What data structure is optimal for solving the 'Next Greater Element' problem for an array of size N in O(N) overall time?",
+    "options": ["Priority Queue (Max-Heap)", "Monotonic Stack", "Circular Queue", "Binary Search Tree"],
+    "correct_index": 1,
+    "explanation": "A monotonic stack pushes and pops each element at most once, yielding linear O(N) total time."
+  },
+  {
+    "id": "diag-5",
+    "topic_id": "trees",
+    "topic_name": "Binary Trees",
+    "question": "Which binary tree traversal visits nodes in the order: Left Subtree -> Root -> Right Subtree?",
+    "options": ["Preorder", "Inorder", "Postorder", "Level-order"],
+    "correct_index": 1,
+    "explanation": "Inorder traversal visits Left, then Root, then Right. For BSTs, inorder yields sorted keys."
+  },
+  {
+    "id": "diag-6",
+    "topic_id": "binary-search",
+    "topic_name": "Binary Search",
+    "question": "Why does Binary Search achieve O(log N) time complexity on a sorted array of size N?",
+    "options": ["It evaluates half the elements sequentially", "It divides the remaining search space by 2 in each comparison", "It caches previously seen midpoints", "It utilizes a hash table internally"],
+    "correct_index": 1,
+    "explanation": "Comparing with the middle element eliminates half of the remaining elements at each step."
+  },
+  {
+    "id": "diag-7",
+    "topic_id": "dynamic-programming",
+    "topic_name": "Dynamic Programming",
+    "question": "What two core mathematical properties must a problem have to be suitable for Dynamic Programming?",
+    "options": ["Greedy choice property & divide-and-conquer", "Optimal substructure & overlapping subproblems", "Associativity & idempotence", "Linear independence & convex duality"],
+    "correct_index": 1,
+    "explanation": "Dynamic Programming applies when subproblems overlap and the global optimum can be composed from subproblem optima."
+  },
+  {
+    "id": "diag-8",
+    "topic_id": "graphs",
+    "topic_name": "Graphs",
+    "question": "Which algorithm is guaranteed to find the shortest path between two vertices in an unweighted graph?",
+    "options": ["Depth-First Search (DFS)", "Breadth-First Search (BFS)", "Prim's Algorithm", "Topological Sort"],
+    "correct_index": 1,
+    "explanation": "BFS expands uniformly level-by-level, ensuring that the first time a target vertex is reached, the path has minimum edge count."
+  },
+  {
+    "id": "diag-9",
+    "topic_id": "operating-systems",
+    "topic_name": "Operating Systems",
+    "question": "What occurs during a Page Fault in an operating system with virtual memory?",
+    "options": ["The CPU executes an invalid opcode trap", "The referenced memory page is not currently present in physical RAM and must be fetched from disk", "A thread attempts to write to a read-only register", "The stack pointer exceeds its maximum segment size"],
+    "correct_index": 1,
+    "explanation": "A page fault is a hardware interrupt raised when a program accesses a page mapped in virtual address space but not loaded into physical memory."
+  },
+  {
+    "id": "diag-10",
+    "topic_id": "concurrency-sync",
+    "topic_name": "Concurrency & Deadlocks",
+    "question": "Which of the following is NOT one of Coffman's four necessary conditions for a Deadlock?",
+    "options": ["Mutual Exclusion", "Hold and Wait", "Preemption", "Circular Wait"],
+    "correct_index": 2,
+    "explanation": "The condition is 'No Preemption'. If resources can be preempted, deadlocks can be broken."
+  },
+  {
+    "id": "diag-11",
+    "topic_id": "dbms-core",
+    "topic_name": "DBMS & SQL",
+    "question": "What does the 'I' stand for in ACID properties of relational databases?",
+    "options": ["Integrity", "Isolation", "Immutability", "Indexing"],
+    "correct_index": 1,
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "id": "diag-12",
+    "topic_id": "transactions-indexing",
+    "topic_name": "Transactions & B-Trees",
+    "question": "Why are B+ trees preferred over standard binary search trees for disk-based database indexes?",
+    "options": ["They eliminate all disk writes", "High fan-out reduces the tree height, minimizing disk I/O operations", "They store all data exclusively in RAM", "They only support equality lookups, which are faster"],
+    "correct_index": 1,
+    "explanation": "B+ trees have a high branching factor (fan-out) that fits disk block sizes, keeping depth very shallow (3-4 levels) to minimize disk reads."
+  },
+  {
+    "id": "diag-13",
+    "topic_id": "computer-networks",
+    "topic_name": "Computer Networks",
+    "question": "In the standard TCP connection establishment, what is the sequence of the 3-way handshake packets?",
+    "options": ["SYN -> SYN-ACK -> ACK", "ACK -> SYN -> ACK", "SYN -> ACK -> SYN", "FIN -> ACK -> FIN-ACK"],
+    "correct_index": 0,
+    "explanation": "Client sends SYN, server responds with SYN-ACK, and client completes the handshake with ACK."
+  },
+  {
+    "id": "diag-14",
+    "topic_id": "oop-design",
+    "topic_name": "Object-Oriented Design (LLD)",
+    "question": "In the SOLID design principles, what does the Liskov Substitution Principle (LSP) state?",
+    "options": ["Classes should be open for extension but closed for modification", "Subtypes must be substitutable for their base types without altering program correctness", "Clients should not be forced to depend on methods they do not use", "High-level modules should not depend on low-level modules"],
+    "correct_index": 1,
+    "explanation": "LSP requires that objects of a superclass should be replaceable with objects of its subclasses without breaking application behavior."
+  },
+  {
+    "id": "diag-15",
+    "topic_id": "system-design-hld",
+    "topic_name": "System Design (HLD)",
+    "question": "According to the CAP theorem in distributed systems, when a network partition (P) occurs, what must a system choose between?",
+    "options": ["Consistency vs Availability", "Latency vs Throughput", "Concurrency vs Durability", "Atomicity vs Performance"],
+    "correct_index": 0,
+    "explanation": "When network partitions occur, distributed systems must trade off between either remaining consistent (C) or remaining available (A)."
+  }
+]

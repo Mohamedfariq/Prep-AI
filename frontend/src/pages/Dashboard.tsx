@@ -1,4 +1,4 @@
-import { ArrowRight, BarChart3, ClipboardCheck, Flame, PlayCircle, PieChart, ShieldCheck } from 'lucide-react';
+import { ArrowRight, BarChart3, CheckCircle2, ClipboardCheck, ExternalLink, FileText, Flame, PlayCircle, PieChart, ShieldCheck } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
@@ -36,14 +36,61 @@ export function Dashboard() {
 
   if (loading) return <LoadingState label="Loading your placement intelligence dashboard..." />;
 
+  const resumeBanner = (
+    <div className="card p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 bg-gradient-to-r from-blue-50/70 to-indigo-50/50 border border-blue-100">
+      <div className="flex items-center gap-4">
+        <div className="p-3 bg-brand/10 text-brand rounded-2xl">
+          <FileText className="h-7 w-7" />
+        </div>
+        <div>
+          <div className="flex items-center gap-2">
+            <h3 className="font-bold text-lg text-slate-800">
+              {profile?.resume_filename ? profile.resume_filename : "Technical Resume (PDF)"}
+            </h3>
+            {profile?.resume_filename ? (
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-semibold flex items-center gap-1">
+                <CheckCircle2 className="h-3 w-3" /> Stored in Supabase
+              </span>
+            ) : (
+              <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-700 font-semibold">
+                Not Uploaded Yet
+              </span>
+            )}
+          </div>
+          <p className="text-xs text-[#60708d] mt-1">
+            {profile?.parsed_skills && profile.parsed_skills.length > 0
+              ? `Extracted ${profile.parsed_skills.length} skills with AI: ${profile.parsed_skills.slice(0, 7).join(", ")}${profile.parsed_skills.length > 7 ? "..." : ""}`
+              : "Upload your resume in PDF format to auto-extract technical skills via local Qwen2.5 AI and seed your preparation plan."}
+          </p>
+        </div>
+      </div>
+      <div className="flex items-center gap-3 w-full md:w-auto">
+        {profile?.resume_signed_url && (
+          <a
+            href={profile.resume_signed_url}
+            target="_blank"
+            rel="noreferrer"
+            className="secondary-btn text-xs py-2 px-3 flex items-center gap-1.5"
+          >
+            <ExternalLink className="h-3.5 w-3.5" /> View Resume
+          </a>
+        )}
+        <Link to="/settings" className="primary-btn text-xs py-2 px-4 whitespace-nowrap">
+          {profile?.resume_filename ? "Manage Resume" : "Upload Resume →"}
+        </Link>
+      </div>
+    </div>
+  );
+
   if (!hasHistory) {
     return (
       <div className="space-y-6">
         <Hero name={user?.name || 'Candidate'} mastery={0} cold />
+        {resumeBanner}
         <EmptyState
           title="Complete your diagnostic assessment to build your initial skill profile."
           body="PrepAI will use your target company, topic performance, and first assessment attempt to initialize BKT mastery estimates and generate recommendations."
-          action={<Link className="primary-btn" to="/personalized-oa">Take Diagnostic OA <ArrowRight /></Link>}
+          action={<Link className="primary-btn" to="/skill-profile">Take Diagnostic Assessment <ArrowRight /></Link>}
         />
       </div>
     );
@@ -52,6 +99,7 @@ export function Dashboard() {
   return (
     <div className="space-y-6">
       <Hero name={user?.name || 'Candidate'} mastery={mastery} />
+      {resumeBanner}
       <section className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
         <MetricCard label="Overall Mastery" value={`${mastery}%`} icon={<BarChart3 />} note={<><span className="text-emerald-600">↑ +8%</span> vs. previous month across 8 domains</>} />
         <MetricCard label="Questions Solved" value={`${profile?.questions_solved || 0}`} icon={<ShieldCheck />} note={<><span className="text-blue-700">↑ this week</span> Target pace: 20 questions/wk</>} />

@@ -13,11 +13,16 @@ router = APIRouter(prefix="/api/recommendations", tags=["recommendations"])
 
 
 @router.get("")
-async def recommendations(user: dict = Depends(get_current_user), db: AsyncIOMotorDatabase = Depends(get_database)):
-    rows = await db.recommendations.find({"user_id": user["id"], "status": {"$in": ["new", "saved"]}}).sort("generated_at", -1).limit(20).to_list(length=20)
-    if not rows:
-        rows = await generate_recommendations(db, user["id"])
-    return serialize(rows)
+async def recommendations(user: dict = Depends(get_current_user), db: AsyncIOMotorDatabase | None = Depends(get_database)):
+    if db is None:
+        return []
+    try:
+        rows = await db.recommendations.find({"user_id": user["id"], "status": {"$in": ["new", "saved"]}}).sort("generated_at", -1).limit(20).to_list(length=20)
+        if not rows:
+            rows = await generate_recommendations(db, user["id"])
+        return serialize(rows)
+    except Exception:
+        return []
 
 
 @router.post("/{recommendation_id}/dismiss")

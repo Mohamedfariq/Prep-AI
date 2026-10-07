@@ -14,6 +14,11 @@ export interface CandidateProfile {
   questions_attempted: number;
   questions_solved: number;
   current_streak: number;
+  resume_filename?: string | null;
+  resume_signed_url?: string | null;
+  parsed_skills?: string[];
+  parsed_projects?: any[];
+  parsed_education?: any[];
 }
 
 export interface SkillRow {
@@ -25,13 +30,18 @@ export interface SkillRow {
 }
 
 export interface Company {
+  id?: string;
   company_id: string;
   name: string;
   logo: string;
   description: string;
+  tier?: string;
+  total_questions?: number;
+  unique_questions?: number;
 }
 
 export interface Question {
+  id?: string;
   question_id: string;
   question_key: string;
   title: string;

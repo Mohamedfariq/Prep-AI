@@ -1,0 +1,26 @@
+{
+  "name": "smart-prep",
+  "version": "1.0.0",
+  "description": "[![FastAPI](https://img.shields.io/badge/FastAPI-0.121+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com) [![React](https://img.shields.io/badge/React-18+-61DAFB.svg?logo=react&logoColor=black)](https://reactjs.org/) [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16+-336791.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/) [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4+-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) [![Ollama](https://img.shields.io/badge/Ollama-Qwen2.5--3B-black.svg?logo=ollama&logoColor=white)](https://ollama.com/)",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "python -m uvicorn app.main:app --reload --port 8000 --app-dir backend --reload-dir backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently -n \"backend,frontend\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamedfariq/Prep-AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mohamedfariq/Prep-AI/issues"
+  },
+  "homepage": "https://github.com/Mohamedfariq/Prep-AI#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

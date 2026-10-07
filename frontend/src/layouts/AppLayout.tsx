@@ -6,6 +6,7 @@ import {
   Building2,
   ChevronDown,
   ClipboardCheck,
+  FileText,
   Gauge,
   LayoutDashboard,
   Lightbulb,
@@ -27,6 +28,7 @@ const navGroups = [
     label: 'MAIN',
     items: [
       { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+      { to: '/settings', label: 'Resume & Profile', icon: FileText, badge: 'AI' },
       { to: '/companies', label: 'Companies', icon: Building2, badge: '35+' },
       { to: '/practice', label: 'Personalized Practice', icon: Lightbulb },
       { to: '/personalized-oa', label: 'Personalized OA', icon: ClipboardCheck, dot: true },

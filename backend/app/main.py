@@ -1,13 +1,16 @@
+import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.config.settings import get_settings
+from app.database.init_db import init_db
 from app.database.mongodb import close_mongo_connection, connect_to_mongo
 from app.routers import admin, assessments, attempts, auth, candidate, companies, questions, recommendations
 
-
+logger = logging.getLogger("uvicorn")
 settings = get_settings()
-app = FastAPI(title="PrepAI Placement Intelligence API", version="0.1.0")
+
+app = FastAPI(title="PrepAI Placement Intelligence API", version="0.2.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -20,7 +23,18 @@ app.add_middleware(
 
 @app.on_event("startup")
 async def startup() -> None:
-    await connect_to_mongo()
+    try:
+        logger.info("Initializing PostgreSQL database...")
+        await init_db()
+        logger.info("PostgreSQL database initialized successfully.")
+    except Exception as e:
+        logger.error(f"PostgreSQL initialization failed: {e}")
+
+    try:
+        await connect_to_mongo()
+        logger.info("MongoDB connected.")
+    except Exception as e:
+        logger.warning(f"MongoDB connection skipped or failed: {e}")
 
 
 @app.on_event("shutdown")

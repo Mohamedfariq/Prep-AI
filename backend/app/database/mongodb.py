@@ -24,9 +24,7 @@ async def close_mongo_connection() -> None:
     database = None
 
 
-def get_database() -> AsyncIOMotorDatabase:
-    if database is None:
-        raise RuntimeError("MongoDB is not connected")
+def get_database() -> AsyncIOMotorDatabase | None:
     return database
 
 
