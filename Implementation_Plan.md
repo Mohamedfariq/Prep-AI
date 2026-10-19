@@ -289,7 +289,7 @@ Every module lists the **options considered**, the **pick**, and a table of **Re
 
 ---
 
-# Module 19: Data Collection and Web Scraping
+## Module 19: Data Collection and Web Scraping
 
 ## Purpose
 
