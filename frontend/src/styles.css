@@ -8,11 +8,75 @@
   box-sizing: border-box;
 }
 
+/* Scaled base font size from 16px to 14px (87.5%) so the UI is compact, high-density, and fits without manual 85% zoom */
+html {
+  font-size: 14px;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
 body {
   margin: 0;
   background: #f6f8fc;
   color: #0f1b2d;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  line-height: 1.5;
+}
+
+html.dark body {
+  background: #0b0f19;
+  color: #f8fafc;
+}
+
+/* Fix browser autofill / autocomplete white background in dark mode and light mode */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #eef3ff inset !important;
+  -webkit-text-fill-color: #0f1b2d !important;
+  caret-color: #0f1b2d !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+html.dark input:-webkit-autofill,
+html.dark input:-webkit-autofill:hover, 
+html.dark input:-webkit-autofill:focus, 
+html.dark input:-webkit-autofill:active,
+html.dark textarea:-webkit-autofill,
+html.dark select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #0b101f inset !important;
+  -webkit-text-fill-color: #f8fafc !important;
+  caret-color: #f8fafc !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Custom sleek scrollbar so Windows default thick white scrollbar doesn't ruin dark mode */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.55);
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(51, 65, 85, 0.5);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.75);
 }
 
 button,
@@ -28,45 +92,58 @@ textarea {
     linear-gradient(105deg, #f4f5ff 0%, #fbfcff 52%, #f7f8ff 100%);
 }
 
+html.dark .prepai-bg {
+  background:
+    radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.16), transparent 35%),
+    radial-gradient(circle at 15% 15%, rgba(79, 70, 229, 0.12), transparent 30%),
+    #0b0f19;
+}
+
 .dot-grid {
   background-color: #f4f8ff;
   background-image: radial-gradient(#dde7f7 1px, transparent 1px);
   background-size: 22px 22px;
 }
 
+html.dark .dot-grid {
+  background-color: #0c1220;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+}
+
 .card {
-  @apply rounded-[22px] border border-line bg-white shadow-card;
+  @apply rounded-2xl border border-line bg-white shadow-card dark:border-[#1e293b] dark:bg-[#111827] dark:text-white dark:shadow-[0_14px_35px_rgba(0,0,0,0.5)];
 }
 
 .soft-card {
-  @apply rounded-2xl border border-line bg-white shadow-subtle;
+  @apply rounded-xl border border-line bg-white shadow-subtle dark:border-[#1e293b] dark:bg-[#11192e] dark:text-white;
 }
 
 .primary-btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-brand px-5 py-3 font-semibold text-white shadow-subtle transition hover:bg-brandDark disabled:cursor-not-allowed disabled:opacity-60;
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand px-4 py-2 font-semibold text-white shadow-subtle transition hover:bg-brandDark disabled:cursor-not-allowed disabled:opacity-60 dark:bg-gradient-to-r dark:from-[#4f46e5] dark:to-[#6366f1] dark:shadow-[0_0_20px_rgba(99,102,241,0.35)] dark:hover:brightness-110;
 }
 
 .secondary-btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-[#bdcbe0] bg-white px-5 py-3 font-semibold text-ink transition hover:bg-[#f5f8ff] disabled:cursor-not-allowed disabled:opacity-60;
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-[#bdcbe0] bg-white px-4 py-2 font-semibold text-ink transition hover:bg-[#f5f8ff] disabled:cursor-not-allowed disabled:opacity-60 dark:border-[#1e293b] dark:bg-[#131c31] dark:text-[#e2e8f0] dark:hover:bg-[#1c2742];
 }
 
 .input-shell {
-  @apply flex items-center gap-3 rounded-xl bg-[#eef3ff] px-4 py-3 text-ink;
+  @apply flex items-center gap-2.5 rounded-lg bg-[#eef3ff] px-3.5 py-2.5 text-ink dark:border dark:border-[#1e293b] dark:bg-[#0b101f] dark:text-[#f8fafc];
 }
 
 .input-shell input,
 .input-shell select {
-  @apply w-full bg-transparent outline-none placeholder:text-[#5c6677];
+  @apply w-full bg-transparent outline-none placeholder:text-[#5c6677] dark:placeholder:text-[#475569] dark:text-white;
+  background-color: transparent !important;
 }
 
 .metric-icon {
-  @apply flex h-10 w-10 items-center justify-center rounded-xl bg-[#eef3ff] text-brand;
+  @apply flex h-9 w-9 items-center justify-center rounded-lg bg-[#eef3ff] text-brand dark:bg-[#18233f] dark:text-[#818cf8];
 }
 
 .status-pill {
-  @apply inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm font-medium;
+  @apply inline-flex items-center gap-2 rounded-full border px-2.5 py-0.5 text-xs font-medium dark:border-[#1e293b];
 }
 
 .page-grid {
-  @apply grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px];
+  @apply grid gap-4 xl:grid-cols-[minmax(0,1fr)_340px];
 }

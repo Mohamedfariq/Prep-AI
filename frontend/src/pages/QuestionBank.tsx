@@ -51,26 +51,26 @@ export function QuestionBank() {
   const endItem = Math.min(page * limit, total);
 
   return (
-    <div className="space-y-6 max-w-7xl pb-16">
-      <section className="card p-8">
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+    <div className="space-y-4 max-w-7xl pb-16">
+      <section className="card p-5 sm:p-6">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
           <div>
-            <h1 className="text-3xl font-extrabold">Question Bank</h1>
-            <p className="mt-2 text-[#60708d]">
+            <h1 className="text-2xl font-extrabold text-ink dark:text-white">Question Bank</h1>
+            <p className="mt-1 text-xs sm:text-sm text-[#60708d] dark:text-slate-400">
               Explore and practice across all <b>{total.toLocaleString()}</b> company-specific interview coding questions.
             </p>
           </div>
           <div className="flex items-center gap-2 self-start md:self-auto">
-            <span className="text-xs font-semibold px-3 py-1.5 rounded-full bg-brand/10 text-brand">
+            <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-brand/10 text-brand dark:bg-brand/20 dark:text-[#818cf8]">
               {total.toLocaleString()} Problems Indexed
             </span>
           </div>
         </div>
 
         {/* Filter Controls Row */}
-        <div className="mt-6 grid gap-4 md:grid-cols-[1fr_180px_200px_130px]">
-          <div className="input-shell bg-white ring-1 ring-line">
-            <Search className="h-5 w-5 text-muted" />
+        <div className="mt-4 grid gap-3 md:grid-cols-[1fr_160px_180px_120px]">
+          <div className="input-shell dark:bg-[#0b101f] dark:ring-1 dark:ring-[#1e293b]">
+            <Search className="h-4 w-4 text-muted dark:text-slate-400" />
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
@@ -79,51 +79,51 @@ export function QuestionBank() {
           </div>
 
           <select
-            className="input-shell bg-white ring-1 ring-line cursor-pointer"
+            className="input-shell dark:bg-[#0b101f] dark:ring-1 dark:ring-[#1e293b] dark:text-slate-200 cursor-pointer"
             value={difficulty}
             onChange={(e) => setDifficulty(e.target.value)}
           >
-            <option value="">All Difficulties</option>
-            <option value="Easy">Easy</option>
-            <option value="Medium">Medium</option>
-            <option value="Hard">Hard</option>
+            <option value="" className="dark:bg-[#0b101f] dark:text-white">All Difficulties</option>
+            <option value="Easy" className="dark:bg-[#0b101f] dark:text-white">Easy</option>
+            <option value="Medium" className="dark:bg-[#0b101f] dark:text-white">Medium</option>
+            <option value="Hard" className="dark:bg-[#0b101f] dark:text-white">Hard</option>
           </select>
 
           <select
-            className="input-shell bg-white ring-1 ring-line cursor-pointer"
+            className="input-shell dark:bg-[#0b101f] dark:ring-1 dark:ring-[#1e293b] dark:text-slate-200 cursor-pointer"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
           >
-            <option value="title">Alphabetical (A - Z)</option>
-            <option value="frequency">Most Frequent in OAs</option>
-            <option value="difficulty">By Difficulty</option>
+            <option value="title" className="dark:bg-[#0b101f] dark:text-white">Alphabetical (A - Z)</option>
+            <option value="frequency" className="dark:bg-[#0b101f] dark:text-white">Most Frequent in OAs</option>
+            <option value="difficulty" className="dark:bg-[#0b101f] dark:text-white">By Difficulty</option>
           </select>
 
           <select
-            className="input-shell bg-white ring-1 ring-line cursor-pointer"
+            className="input-shell dark:bg-[#0b101f] dark:ring-1 dark:ring-[#1e293b] dark:text-slate-200 cursor-pointer"
             value={limit}
             onChange={(e) => setLimit(Number(e.target.value))}
           >
-            <option value={25}>25 / page</option>
-            <option value={50}>50 / page</option>
-            <option value={100}>100 / page</option>
+            <option value={25} className="dark:bg-[#0b101f] dark:text-white">25 / page</option>
+            <option value={50} className="dark:bg-[#0b101f] dark:text-white">50 / page</option>
+            <option value={100} className="dark:bg-[#0b101f] dark:text-white">100 / page</option>
           </select>
         </div>
 
         {/* A-Z Alphabet Quick Bar */}
-        <div className="mt-6 pt-4 border-t border-line">
-          <div className="text-xs font-bold text-[#60708d] mb-2 uppercase tracking-wider flex items-center gap-1.5">
-            <Filter className="h-3.5 w-3.5" /> Jump to Letter:
+        <div className="mt-4 pt-3 border-t border-line dark:border-[#1e293b]">
+          <div className="text-[11px] font-bold text-[#60708d] dark:text-slate-400 mb-1.5 uppercase tracking-wider flex items-center gap-1.5">
+            <Filter className="h-3 w-3" /> Jump to Letter:
           </div>
           <div className="flex flex-wrap gap-1">
             {ALPHABETS.map((letter) => (
               <button
                 key={letter}
                 onClick={() => setSelectedLetter(letter)}
-                className={`px-2.5 py-1 text-xs rounded-lg font-bold transition ${
+                className={`px-2 py-0.5 text-xs rounded-md font-bold transition ${
                   selectedLetter === letter
                     ? 'bg-brand text-white shadow-sm'
-                    : 'bg-slate-50 text-slate-600 hover:bg-slate-100'
+                    : 'bg-slate-50 text-slate-600 hover:bg-slate-100 dark:bg-[#11192e] dark:border dark:border-[#1e293b] dark:text-slate-300 dark:hover:bg-[#1a2542]'
                 }`}
               >
                 {letter}
@@ -137,8 +137,8 @@ export function QuestionBank() {
       {loading ? (
         <LoadingState label="Loading questions from PostgreSQL..." />
       ) : (
-        <div className="soft-card overflow-hidden">
-          <div className="px-6 py-4 border-b border-line flex items-center justify-between text-xs text-[#60708d] bg-white">
+        <div className="soft-card overflow-hidden dark:border-[#1e293b]">
+          <div className="px-5 py-3 border-b border-line dark:border-[#1e293b] flex items-center justify-between text-xs text-[#60708d] dark:text-slate-400 bg-white dark:bg-[#0d1424]">
             <span>
               Showing <b>{startItem}</b> to <b>{endItem}</b> of <b>{total.toLocaleString()}</b> questions
             </span>
@@ -148,39 +148,39 @@ export function QuestionBank() {
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[900px] text-left">
-              <thead className="bg-[#f4f7fb] text-xs font-bold uppercase tracking-wider text-[#60708d]">
+            <table className="w-full min-w-[850px] text-left">
+              <thead className="bg-[#f4f7fb] dark:bg-[#0f172a] text-[11px] font-bold uppercase tracking-wider text-[#60708d] dark:text-slate-400 border-b border-line dark:border-[#1e293b]">
                 <tr>
-                  <th className="p-4 w-12">#</th>
-                  <th className="p-4">Question Title</th>
-                  <th className="p-4">Topics</th>
-                  <th className="p-4">Difficulty</th>
-                  <th className="p-4">OA Frequency</th>
-                  <th className="p-4">Companies</th>
-                  <th className="p-4 text-center">Solve</th>
+                  <th className="p-3 w-12">#</th>
+                  <th className="p-3">Question Title</th>
+                  <th className="p-3">Topics</th>
+                  <th className="p-3">Difficulty</th>
+                  <th className="p-3">OA Frequency</th>
+                  <th className="p-3">Companies</th>
+                  <th className="p-3 text-center">Solve</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-line text-sm">
+              <tbody className="divide-y divide-line dark:divide-[#1e293b] text-xs sm:text-sm">
                 {questions.map((q, idx) => {
                   const diffColor =
                     q.difficulty === 'Easy'
-                      ? 'border-emerald-200 bg-emerald-50 text-emerald-700'
+                      ? 'border-emerald-200 bg-emerald-50 text-emerald-700 dark:bg-emerald-950/50 dark:border-emerald-800 dark:text-emerald-300'
                       : q.difficulty === 'Medium'
-                      ? 'border-amber-200 bg-amber-50 text-amber-700'
-                      : 'border-rose-200 bg-rose-50 text-rose-700';
+                      ? 'border-amber-200 bg-amber-50 text-amber-700 dark:bg-amber-950/50 dark:border-amber-800 dark:text-amber-300'
+                      : 'border-rose-200 bg-rose-50 text-rose-700 dark:bg-rose-950/50 dark:border-rose-800 dark:text-rose-300';
 
                   return (
-                    <tr className="hover:bg-slate-50/70 transition" key={q.question_id || q.id}>
-                      <td className="p-4 text-xs text-slate-400 font-mono">
+                    <tr className="hover:bg-slate-50/70 dark:hover:bg-[#141e34] transition" key={q.question_id || q.id}>
+                      <td className="p-3 text-xs text-slate-400 font-mono">
                         {startItem + idx}
                       </td>
-                      <td className="p-4 font-semibold text-slate-800">
+                      <td className="p-3 font-semibold text-slate-800 dark:text-slate-100">
                         {q.title}
                       </td>
-                      <td className="p-4 text-xs text-[#60708d] max-w-xs">
+                      <td className="p-3 text-xs text-[#60708d] dark:text-slate-400 max-w-xs">
                         <div className="flex flex-wrap gap-1">
                           {q.topics?.slice(0, 3).map((t) => (
-                            <span key={t} className="px-2 py-0.5 rounded bg-slate-100 text-slate-600">
+                            <span key={t} className="px-2 py-0.5 rounded bg-slate-100 dark:bg-[#1e293b] text-slate-600 dark:text-slate-300 text-[11px]">
                               {t}
                             </span>
                           ))}
@@ -189,33 +189,33 @@ export function QuestionBank() {
                           )}
                         </div>
                       </td>
-                      <td className="p-4">
-                        <span className={`inline-block px-2.5 py-0.5 text-xs rounded-full border font-semibold ${diffColor}`}>
+                      <td className="p-3">
+                        <span className={`inline-block px-2.5 py-0.5 text-[11px] rounded-full border font-semibold ${diffColor}`}>
                           {q.difficulty}
                         </span>
                       </td>
-                      <td className="p-4 text-slate-700 font-medium text-xs">
+                      <td className="p-3 text-slate-700 dark:text-slate-300 font-medium text-xs">
                         {q.frequency_percent ? `${Math.round(q.frequency_percent)}%` : '—'}
                       </td>
-                      <td className="p-4 text-xs text-[#60708d]">
+                      <td className="p-3 text-xs text-[#60708d] dark:text-slate-400">
                         <span className="capitalize">
                           {q.companies?.slice(0, 3).join(', ')}
                           {(q.companies?.length || 0) > 3 ? ` +${q.companies!.length - 3}` : ''}
                         </span>
                       </td>
-                      <td className="p-4 text-center">
+                      <td className="p-3 text-center">
                         {q.leetcode_url ? (
                           <a
                             href={q.leetcode_url}
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex p-2 text-brand hover:bg-brand/10 rounded-lg transition"
+                            className="inline-flex p-1.5 text-brand dark:text-[#818cf8] hover:bg-brand/10 rounded-lg transition"
                             title="Open problem on LeetCode"
                           >
-                            <ExternalLink className="h-4 w-4" />
+                            <ExternalLink className="h-3.5 w-3.5" />
                           </a>
                         ) : (
-                          <span className="text-slate-300">—</span>
+                          <span className="text-slate-300 dark:text-slate-600">—</span>
                         )}
                       </td>
                     </tr>
@@ -226,25 +226,25 @@ export function QuestionBank() {
           </div>
 
           {!questions.length && (
-            <div className="py-16 text-center text-[#60708d] space-y-2">
-              <p className="font-semibold">No questions match your filter.</p>
+            <div className="py-12 text-center text-[#60708d] dark:text-slate-400 space-y-1.5">
+              <p className="font-semibold text-sm text-ink dark:text-white">No questions match your filter.</p>
               <p className="text-xs">Try selecting a different letter or clearing your search query.</p>
             </div>
           )}
 
           {/* Pagination Footer */}
-          <div className="p-4 border-t border-line bg-white flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="text-xs text-[#60708d]">
+          <div className="p-3 border-t border-line dark:border-[#1e293b] bg-white dark:bg-[#0d1424] flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div className="text-xs text-[#60708d] dark:text-slate-400">
               Showing <b>{startItem}</b> to <b>{endItem}</b> of <b>{total.toLocaleString()}</b>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5">
               <button
                 disabled={page <= 1}
                 onClick={() => setPage((p) => Math.max(1, p - 1))}
-                className="secondary-btn text-xs py-1.5 px-3 flex items-center gap-1 disabled:opacity-40"
+                className="secondary-btn text-xs py-1 px-2.5 flex items-center gap-1 disabled:opacity-40 dark:border-[#1e293b] dark:bg-[#162038] dark:text-slate-200"
               >
-                <ArrowLeft className="h-3.5 w-3.5" /> Previous
+                <ArrowLeft className="h-3 w-3" /> Previous
               </button>
 
               <div className="flex items-center gap-1 text-xs">
@@ -264,10 +264,10 @@ export function QuestionBank() {
                     <button
                       key={pageNum}
                       onClick={() => setPage(pageNum)}
-                      className={`w-8 h-8 rounded-lg font-bold transition ${
+                      className={`w-7 h-7 rounded-md font-bold transition ${
                         page === pageNum
-                          ? 'bg-brand text-white'
-                          : 'bg-slate-50 hover:bg-slate-100 text-slate-700'
+                          ? 'bg-brand text-white shadow-sm'
+                          : 'bg-slate-50 hover:bg-slate-100 text-slate-700 dark:bg-[#11192e] dark:border dark:border-[#1e293b] dark:text-slate-300 dark:hover:bg-[#1e293b]'
                       }`}
                     >
                       {pageNum}
@@ -279,9 +279,9 @@ export function QuestionBank() {
               <button
                 disabled={page >= totalPages}
                 onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                className="secondary-btn text-xs py-1.5 px-3 flex items-center gap-1 disabled:opacity-40"
+                className="secondary-btn text-xs py-1 px-2.5 flex items-center gap-1 disabled:opacity-40 dark:border-[#1e293b] dark:bg-[#162038] dark:text-slate-200"
               >
-                Next <ArrowRight className="h-3.5 w-3.5" />
+                Next <ArrowRight className="h-3 w-3" />
               </button>
             </div>
           </div>

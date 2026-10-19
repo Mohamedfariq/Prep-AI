@@ -79,54 +79,54 @@ export function SkillProfile() {
   if (loading) return <LoadingState />;
 
   return (
-    <div className="space-y-6 max-w-5xl pb-12">
-      <section className="card p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+    <div className="space-y-4 max-w-5xl pb-12">
+      <section className="card p-5 sm:p-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-extrabold">Skill Mastery Profile</h1>
-          <p className="mt-2 text-[#60708d]">
+          <h1 className="text-2xl font-extrabold text-ink dark:text-white">Skill Mastery Profile</h1>
+          <p className="mt-1 text-xs sm:text-sm text-[#60708d] dark:text-slate-400">
             Bayesian Knowledge Tracing (BKT) topic mastery initialized by self-rating and 15-question diagnostic calibration.
           </p>
         </div>
         <button
           onClick={openDiagnostic}
-          className="primary-btn flex items-center gap-2 whitespace-nowrap self-start md:self-auto"
+          className="primary-btn text-xs py-2 px-3.5 flex items-center gap-2 whitespace-nowrap self-start md:self-auto"
         >
-          <Award className="h-5 w-5" /> Take Diagnostic Quiz (15 Qs)
+          <Award className="h-4 w-4" /> Take Diagnostic Quiz (15 Qs)
         </button>
       </section>
 
       {/* Summary KPI Bar */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="soft-card p-5">
-          <span className="text-xs font-semibold text-[#60708d] uppercase tracking-wider">Overall BKT Mastery</span>
-          <div className="mt-2 text-2xl font-black text-brand">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className="soft-card p-4">
+          <span className="text-[11px] font-semibold text-[#60708d] dark:text-slate-400 uppercase tracking-wider">Overall BKT Mastery</span>
+          <div className="mt-1.5 text-2xl font-black text-brand dark:text-[#818cf8]">
             {Math.round((profileSummary?.overall_mastery || 0) * 100)}%
           </div>
         </div>
-        <div className="soft-card p-5">
-          <span className="text-xs font-semibold text-[#60708d] uppercase tracking-wider">Diagnostic Accuracy</span>
-          <div className="mt-2 text-2xl font-black text-emerald-600">
+        <div className="soft-card p-4">
+          <span className="text-[11px] font-semibold text-[#60708d] dark:text-slate-400 uppercase tracking-wider">Diagnostic Accuracy</span>
+          <div className="mt-1.5 text-2xl font-black text-emerald-600 dark:text-emerald-400">
             {profileSummary?.accuracy ? `${profileSummary.accuracy}%` : 'Not Taken'}
           </div>
         </div>
-        <div className="soft-card p-5">
-          <span className="text-xs font-semibold text-[#60708d] uppercase tracking-wider">Target Company</span>
-          <div className="mt-2 text-2xl font-black capitalize text-slate-800">
+        <div className="soft-card p-4">
+          <span className="text-[11px] font-semibold text-[#60708d] dark:text-slate-400 uppercase tracking-wider">Target Company</span>
+          <div className="mt-1.5 text-2xl font-black capitalize text-slate-800 dark:text-white">
             {profileSummary?.target_company || 'Unset'}
           </div>
         </div>
       </div>
 
       {/* Category Tabs */}
-      <div className="flex gap-2 border-b border-line pb-2">
+      <div className="flex gap-1.5 border-b border-line dark:border-[#1e293b] pb-2">
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
-            className={`px-4 py-2 rounded-xl text-sm font-semibold transition ${
+            className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
               selectedCategory === cat
                 ? 'bg-brand text-white shadow-sm'
-                : 'text-[#60708d] hover:bg-slate-100'
+                : 'text-[#60708d] dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-[#1e293b]'
             }`}
           >
             {cat}
@@ -135,28 +135,28 @@ export function SkillProfile() {
       </div>
 
       {/* Skill List */}
-      <div className="soft-card p-6">
-        <div className="space-y-5">
+      <div className="soft-card p-5">
+        <div className="space-y-4">
           {filteredSkills.map((skill) => {
             const mastery = Math.round((skill.mastery_probability || 0) * 100);
             return (
-              <div key={skill.topic_id || skill.topic} className="space-y-1.5">
-                <div className="flex justify-between items-center text-sm">
+              <div key={skill.topic_id || skill.topic} className="space-y-1">
+                <div className="flex justify-between items-center text-xs sm:text-sm">
                   <div>
-                    <span className="font-bold text-[#0f172a]">{skill.topic}</span>
-                    <span className="ml-2 text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
+                    <span className="font-bold text-[#0f172a] dark:text-white">{skill.topic}</span>
+                    <span className="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-slate-100 dark:bg-[#1e293b] text-slate-600 dark:text-slate-300">
                       {skill.category}
                     </span>
                   </div>
-                  <div className="text-xs text-[#60708d]">
-                    <span className="font-semibold text-brand">{mastery}% Mastery</span>
-                    <span className="mx-2">•</span>
+                  <div className="text-xs text-[#60708d] dark:text-slate-400">
+                    <span className="font-semibold text-brand dark:text-[#818cf8]">{mastery}% Mastery</span>
+                    <span className="mx-1.5">•</span>
                     <span>Self-Rate: {skill.self_rating || 2.5}/5</span>
                   </div>
                 </div>
-                <div className="h-2.5 rounded-full bg-[#eef2f7] overflow-hidden">
+                <div className="h-2 rounded-full bg-[#eef2f7] dark:bg-[#1e293b] overflow-hidden">
                   <div
-                    className="h-full rounded-full bg-brand transition-all duration-500"
+                    className="h-full rounded-full bg-brand dark:bg-[#6366f1] transition-all duration-500"
                     style={{ width: `${mastery}%` }}
                   />
                 </div>
@@ -164,72 +164,72 @@ export function SkillProfile() {
             );
           })}
           {!filteredSkills.length && (
-            <p className="text-muted text-center py-6">No skills found in this category.</p>
+            <p className="text-muted dark:text-slate-400 text-center py-6 text-xs">No skills found in this category.</p>
           )}
         </div>
       </div>
 
       {/* Diagnostic Modal */}
       {showDiagnostic && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4 overflow-y-auto">
-          <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl">
-            <div className="p-6 border-b border-line flex justify-between items-center">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 overflow-y-auto">
+          <div className="bg-white dark:bg-[#0e1424] dark:border dark:border-[#1e293b] rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl">
+            <div className="p-4 sm:p-5 border-b border-line dark:border-[#1e293b] flex justify-between items-center">
               <div>
-                <h3 className="text-xl font-bold">15-Question Initial Diagnostic Assessment</h3>
-                <p className="text-xs text-[#60708d] mt-1">
+                <h3 className="text-lg font-bold text-ink dark:text-white">15-Question Initial Diagnostic Assessment</h3>
+                <p className="text-xs text-[#60708d] dark:text-slate-400 mt-0.5">
                   Calibrate your prior Bayesian mastery across DSA and CS fundamentals.
                 </p>
               </div>
               <button
                 onClick={() => setShowDiagnostic(false)}
-                className="text-gray-400 hover:text-gray-600 text-lg font-bold p-1"
+                className="text-gray-400 hover:text-gray-600 dark:hover:text-white text-base font-bold p-1"
               >
                 ✕
               </button>
             </div>
 
-            <div className="p-6 overflow-y-auto flex-1 space-y-6">
+            <div className="p-4 sm:p-5 overflow-y-auto flex-1 space-y-4">
               {quizLoading ? (
-                <div className="py-12 text-center text-[#60708d]">Loading questions...</div>
+                <div className="py-12 text-center text-[#60708d] dark:text-slate-400 text-xs">Loading questions...</div>
               ) : quizResult ? (
-                <div className="space-y-4 text-center py-6">
-                  <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
-                    <CheckCircle2 className="h-8 w-8" />
+                <div className="space-y-3.5 text-center py-5">
+                  <div className="w-14 h-14 bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 rounded-full flex items-center justify-center mx-auto">
+                    <CheckCircle2 className="h-7 w-7" />
                   </div>
-                  <h4 className="text-2xl font-black">Assessment Complete!</h4>
-                  <p className="text-slate-600 text-sm">
+                  <h4 className="text-xl font-black text-ink dark:text-white">Assessment Complete!</h4>
+                  <p className="text-slate-600 dark:text-slate-300 text-xs sm:text-sm">
                     Accuracy: <b>{quizResult.accuracy_percentage}%</b> ({quizResult.correct_count} / {quizResult.total_questions} correct)
                   </p>
-                  <p className="text-xs text-[#60708d]">
+                  <p className="text-xs text-[#60708d] dark:text-slate-400">
                     Your topic priors have been calibrated using the 70/30 diagnostic + self-rating formula.
                   </p>
                   <button
                     onClick={() => setShowDiagnostic(false)}
-                    className="primary-btn mt-4 inline-block"
+                    className="primary-btn mt-3 inline-block text-xs py-2 px-4"
                   >
                     Done & View Updated Profile
                   </button>
                 </div>
               ) : (
-                <div className="space-y-6">
+                <div className="space-y-4">
                   {questions.map((q, qIndex) => (
-                    <div key={q.id} className="p-4 rounded-xl border border-line bg-slate-50/50 space-y-3">
+                    <div key={q.id} className="p-3.5 rounded-xl border border-line dark:border-[#1e293b] bg-slate-50/50 dark:bg-[#11192e] space-y-2.5">
                       <div className="flex items-start justify-between gap-2">
-                        <span className="font-bold text-sm text-[#0f172a]">
+                        <span className="font-bold text-xs sm:text-sm text-[#0f172a] dark:text-white">
                           {qIndex + 1}. {q.question}
                         </span>
-                        <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-700 whitespace-nowrap">
+                        <span className="text-[9px] font-semibold uppercase px-2 py-0.5 rounded bg-blue-100 text-blue-700 dark:bg-[#18233f] dark:text-[#818cf8] whitespace-nowrap">
                           {q.topic_name}
                         </span>
                       </div>
-                      <div className="space-y-2">
+                      <div className="space-y-1.5">
                         {q.options.map((opt, optIndex) => (
                           <label
                             key={optIndex}
-                            className={`flex items-center gap-3 p-3 rounded-lg border text-xs cursor-pointer transition ${
+                            className={`flex items-center gap-2.5 p-2.5 rounded-lg border text-xs cursor-pointer transition ${
                               answers[q.id] === optIndex
-                                ? 'border-brand bg-brand/5 text-brand font-semibold'
-                                : 'border-line bg-white hover:bg-slate-50 text-slate-700'
+                                ? 'border-brand bg-brand/5 dark:bg-brand/15 text-brand dark:text-[#818cf8] font-semibold'
+                                : 'border-line dark:border-[#1e293b] bg-white dark:bg-[#162038] hover:bg-slate-50 dark:hover:bg-[#1c2844] text-slate-700 dark:text-slate-200'
                             }`}
                           >
                             <input
@@ -250,14 +250,14 @@ export function SkillProfile() {
             </div>
 
             {!quizResult && !quizLoading && (
-              <div className="p-4 border-t border-line bg-slate-50 flex justify-between items-center">
-                <span className="text-xs text-[#60708d]">
+              <div className="p-3 sm:p-4 border-t border-line dark:border-[#1e293b] bg-slate-50 dark:bg-[#0b101f] flex justify-between items-center">
+                <span className="text-xs text-[#60708d] dark:text-slate-400">
                   Answered: {Object.keys(answers).length} of {questions.length}
                 </span>
                 <button
                   onClick={submitDiagnostic}
                   disabled={Object.keys(answers).length === 0}
-                  className="primary-btn text-sm"
+                  className="primary-btn text-xs py-1.5 px-3.5"
                 >
                   Submit & Calibrate Mastery
                 </button>
@@ -269,3 +269,4 @@ export function SkillProfile() {
     </div>
   );
 }
+

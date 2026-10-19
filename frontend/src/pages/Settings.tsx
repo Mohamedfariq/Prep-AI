@@ -152,11 +152,11 @@ export function Settings() {
           <div className="grid gap-4 md:grid-cols-2">
             <label className="block">
               <span className="font-semibold text-sm">Email Address</span>
-              <div className="input-shell mt-1 bg-gray-50 text-gray-500">{user?.email}</div>
+              <div className="input-shell mt-1 bg-gray-50 dark:bg-[#0b101f] text-gray-500 dark:text-slate-400">{user?.email}</div>
             </label>
             <label className="block">
               <span className="font-semibold text-sm">Full Name</span>
-              <div className="input-shell mt-1 bg-gray-50 text-gray-500">{user?.name}</div>
+              <div className="input-shell mt-1 bg-gray-50 dark:bg-[#0b101f] text-gray-500 dark:text-slate-400">{user?.name}</div>
             </label>
           </div>
 
@@ -229,15 +229,15 @@ export function Settings() {
         </div>
 
         {resumeData.filename ? (
-          <div className="rounded-xl border border-line p-5 bg-white space-y-4">
+          <div className="rounded-xl border border-line dark:border-[#1e293b] p-5 bg-white dark:bg-[#11192e] space-y-4">
             <div className="flex items-center justify-between flex-wrap gap-3">
               <div className="flex items-center gap-3">
-                <div className="p-2.5 bg-blue-50 text-blue-600 rounded-lg">
+                <div className="p-2.5 bg-blue-50 dark:bg-indigo-950/50 text-blue-600 dark:text-indigo-400 rounded-lg">
                   <FileText className="h-6 w-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-sm text-[#0f172a]">{resumeData.filename}</h4>
-                  <span className="text-xs text-emerald-600 font-medium flex items-center gap-1">
+                  <h4 className="font-bold text-sm text-[#0f172a] dark:text-white">{resumeData.filename}</h4>
+                  <span className="text-xs text-emerald-600 dark:text-emerald-400 font-medium flex items-center gap-1">
                     <CheckCircle2 className="h-3 w-3" /> Encrypted & Stored in Supabase
                   </span>
                 </div>
@@ -255,7 +255,7 @@ export function Settings() {
                 )}
                 <button
                   onClick={handleDeleteResume}
-                  className="p-2 text-rose-500 hover:bg-rose-50 rounded-lg transition"
+                  className="p-2 text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-950/40 rounded-lg transition"
                   title="Delete Resume"
                 >
                   <Trash2 className="h-4 w-4" />
@@ -265,15 +265,15 @@ export function Settings() {
 
             {/* Extracted Skills Preview */}
             {resumeData.skills.length > 0 && (
-              <div className="border-t border-line pt-4 space-y-2">
-                <h5 className="text-xs font-bold uppercase tracking-wider text-[#60708d]">
+              <div className="border-t border-line dark:border-[#1e293b] pt-4 space-y-2">
+                <h5 className="text-xs font-bold uppercase tracking-wider text-[#60708d] dark:text-slate-400">
                   AI Extracted Skills ({resumeData.skills.length})
                 </h5>
                 <div className="flex flex-wrap gap-1.5">
                   {resumeData.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs rounded-full font-medium"
+                      className="px-2.5 py-1 bg-slate-100 dark:bg-[#1e293b] text-slate-700 dark:text-slate-300 text-xs rounded-full font-medium"
                     >
                       {skill}
                     </span>
@@ -283,13 +283,13 @@ export function Settings() {
             )}
           </div>
         ) : (
-          <div className="border-2 border-dashed border-line rounded-xl p-8 text-center space-y-4 hover:border-brand transition">
-            <div className="mx-auto w-12 h-12 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center">
+          <div className="border-2 border-dashed border-line dark:border-[#1e293b] rounded-xl p-8 text-center space-y-4 hover:border-brand transition dark:bg-[#0c1222]">
+            <div className="mx-auto w-12 h-12 rounded-full bg-blue-50 dark:bg-indigo-950/50 text-blue-600 dark:text-indigo-400 flex items-center justify-center">
               <UploadCloud className="h-6 w-6" />
             </div>
             <div>
-              <p className="font-semibold text-sm text-[#0f172a]">Upload your Technical Resume (PDF)</p>
-              <p className="text-xs text-[#60708d] mt-1">Maximum file size: 10MB</p>
+              <p className="font-semibold text-sm text-[#0f172a] dark:text-white">Upload your Technical Resume (PDF)</p>
+              <p className="text-xs text-[#60708d] dark:text-slate-400 mt-1">Maximum file size: 10MB</p>
             </div>
             <div>
               <label className="primary-btn cursor-pointer inline-flex items-center gap-2">
@@ -308,13 +308,13 @@ export function Settings() {
         )}
 
         {uploadMessage && (
-          <div className="flex items-center gap-2 rounded-xl bg-blue-50 p-3 text-blue-700 text-sm">
+          <div className="flex items-center gap-2 rounded-xl bg-blue-50 dark:bg-blue-950/50 dark:text-blue-300 p-3 text-blue-700 text-sm">
             <CheckCircle2 className="h-4 w-4" /> {uploadMessage}
           </div>
         )}
 
         {uploadError && (
-          <div className="flex items-center gap-2 rounded-xl bg-rose-50 p-3 text-rose-700 text-sm">
+          <div className="flex items-center gap-2 rounded-xl bg-rose-50 dark:bg-rose-950/50 dark:text-rose-300 p-3 text-rose-700 text-sm">
             <AlertCircle className="h-4 w-4" /> {uploadError}
           </div>
         )}
