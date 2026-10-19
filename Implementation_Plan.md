@@ -328,7 +328,7 @@ Automatically collect company-wise hiring-process facts, interview experiences, 
 | Incremental update | PostgreSQL + RQ | Preserve existing records and insert/update only new or modified experiences, rounds and questions. |
 | Privacy | Regex PII scrubber | Remove names, email addresses, phone numbers and other unnecessary personal information before processing/storage. |
 | Quality control | Pydantic + pytest | Validate required fields, language, minimum length, spam/anomaly checks and quarantine unusual source spikes. |
-| Monitoring | Logging + Admin UI | Track source status, last update, next update, errors, records added/rejected and collection statistics. |
+| Monitoring | Logging + Admin UI | Track source status, last update, next update, errors, records added/rejected and collection statistics. | ---
 
 ## Data Collection Pipeline
 
@@ -358,6 +358,8 @@ Approve records
 Update PostgreSQL
       ↓
 Send to Module 20
+
+```
 
 ## Module 20: Data Pipeline
 
