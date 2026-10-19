@@ -289,48 +289,75 @@ Every module lists the **options considered**, the **pick**, and a table of **Re
 
 ---
 
-## Module 19: Data Collection and Web Scraping (new)
+# Module 19: Data Collection and Web Scraping
 
-**Purpose:** feed Modules 2, 3 and 11 with company-wise questions, hiring-process facts and interview experiences, in a legal, reproducible and attributable way.
+## Purpose
 
-**Source options (full list):**
-1. Your own college's placement feedback (Google Forms or CSV from seniors), the highest-value and fully legitimate source.
-2. User submissions via the platform (Module 3).
-3. Kaggle datasets (via the Kaggle API) and Hugging Face datasets (via `datasets`), with each licence checked.
-4. GitHub repositories of company-wise question lists (GitHub API; check each repo's licence).
-5. Official company careers and job-description pages (role requirements, stages; check robots.txt).
-6. Reddit communities (e.g. careers and placement subreddits) via the official API (PRAW), within API terms.
-7. Hacker News via its public API (limited relevance, mostly for trends).
-8. Interview-experience sites (e.g. GeeksforGeeks): scrape only if terms and robots.txt allow, with low rate and attribution.
-9. Platforms whose terms prohibit scraping (e.g. LeetCode Discuss, Glassdoor, AmbitionBox): do not scrape. Use manual summaries by consenting contributors, or official data if offered.
-10. Common Crawl: only if you need broad text at scale (usually unnecessary).
+Automatically collect company-wise hiring-process facts, interview experiences, rounds, questions, and follow-ups from permitted sources. The system should maintain provenance, remove duplicates, estimate source reliability, and refresh the collected data every **2 weeks**.
 
-**Tool options:** requests + BeautifulSoup / Scrapy / Playwright / Selenium / trafilatura (article extraction) / PRAW / Kaggle API.
-**Pick:** Scrapy for crawling, Playwright only for JS-rendered pages, trafilatura for clean text, PRAW and platform APIs where they exist, RQ-scheduler or cron for scheduling.
+## Options
 
-| Requirement | Tech stack | Implementation |
+- **Web crawling:** Scrapy + Playwright
+- **Reddit:** PRAW / official platform APIs
+- **Datasets:** Kaggle / Hugging Face APIs
+- **Storage:** PostgreSQL
+- **Scheduling:** Redis + RQ Scheduler
+- **Text extraction:** trafilatura + BeautifulSoup
+- **LLM extraction:** Qwen2.5-3B + Pydantic validation
+
+## Pick
+
+**Scrapy + Playwright + PRAW/APIs + PostgreSQL + Redis/RQ Scheduler**
+
+| Requirement | Tech Stack | Implementation |
 |---|---|---|
-| Source registry | Postgres `source_registry` | One row per source: name, URL pattern, access method (API/scrape/manual), licence or terms note, robots status, reliability prior `s_src`, rate limit, enabled flag. A source is enabled only after a manual terms review. |
-| Compliance | `urllib.robotparser`, Scrapy `ROBOTSTXT_OBEY=True` | Respect robots.txt and terms; identifiable User-Agent; no login bypass, CAPTCHA bypass or paywall circumvention. |
-| Polite crawling | Scrapy AutoThrottle, HTTP cache | Concurrency 1 to 2 per domain, delays of 2 to 5 seconds, exponential backoff, cached responses so you never refetch needlessly. |
-| Collectors | Scrapy spiders, Playwright, PRAW, Kaggle/HF clients, CSV importer | One collector class per source with a common interface `collect() → RawDocument`. |
-| Raw storage | Postgres `raw_documents` (+ files on disk) | Store `url, source_id, fetched_at, content_hash, http_status, raw_html/text, licence_note`. Raw data is immutable, so every extracted fact can be traced back. |
-| Content extraction | trafilatura, BeautifulSoup, selectolax | Clean main text; drop navigation and ads. |
-| Parsing | Rules, regex, Qwen2.5-3B fallback | Split into experiences and questions, then hand over to the Module 3 pipeline (dedupe, extraction, classification). |
-| Store facts, not copies | Python | Persist structured facts (company, round, topic, difficulty, a short paraphrase) and a link to the source; avoid redistributing full copyrighted text. |
-| Provenance | Postgres | Every question or experience row carries `source_id` and `raw_document_id`, shown in the UI as attribution. |
-| Deduplication | hashlib, pgvector | Exact hash on raw content; embedding similarity on extracted questions. |
-| Scheduling | RQ-scheduler or cron, Docker | Weekly for static sources, daily for APIs. Failures logged and retried, with an alert after 3 failures. |
-| Change detection | Content hash comparison | Re-parse only when the hash changes. |
-| Quality gates | Pydantic, pytest | Required fields, language check, minimum length, spam filter, anomaly check (sudden volume spike from one source gets quarantined). |
-| Trust integration | Module 2 formula | `s_src` from the registry feeds `w_i`; scraped data is never treated as more reliable than curated data. |
-| Privacy | Regex PII scrubber | Remove names, emails and phone numbers from collected text before storage. |
-| Monitoring | Logging, simple admin page | Per-source counts, error rates, last success, rows added, rows rejected. |
-| Legal note for the report | Documentation | State the sources used, how terms and robots.txt were checked, and that restricted platforms were excluded. This also strengthens the viva. |
+| Source registry | PostgreSQL | Store source name, URL, access method, licence/terms, robots status, reliability score `s_src`, rate limit and enabled flag. |
+| GitHub collection | GitHub API | Collect permitted company-wise question repositories and verify repository licence. |
+| Reddit collection | PRAW / Reddit API | Collect permitted interview-experience posts and comments. Treat Reddit content as candidate-reported evidence. |
+| Web collection | Scrapy + Playwright | Scrape permitted public pages. Use Playwright only for JavaScript-heavy pages. |
+| Compliance | `robots.txt` + source terms | Check `robots.txt`, respect terms, use an identifiable User-Agent, and never bypass login, CAPTCHA or paywalls. |
+| Polite crawling | Scrapy AutoThrottle | Use low concurrency, delays, caching and exponential backoff. |
+| Content extraction | trafilatura + BeautifulSoup | Convert raw HTML into clean readable text before processing. |
+| Experience extraction | Qwen2.5-3B + Pydantic | Extract company, role, round, questions, follow-ups, topics and hiring-process facts into structured JSON. |
+| Raw storage | PostgreSQL | Store `url`, `source_id`, `fetched_at`, `content_hash`, `http_status`, raw text/HTML and licence notes. Keep raw records immutable. |
+| Provenance | PostgreSQL | Every extracted question/experience stores `source_id` and `raw_document_id` for attribution. |
+| Deduplication | SHA-256 + pgvector | Use content hashes for exact duplicates and embedding similarity for near-duplicate experiences/questions. |
+| Reliability | PostgreSQL | Maintain source reliability prior `s_src` and use it when calculating confidence. |
+| Biweekly update | Redis + RQ Scheduler | Automatically run the collection pipeline every **14 days** for all enabled sources. |
+| Change detection | Content hash | Compare the new content hash with the previous version and reprocess only changed content. |
+| Incremental update | PostgreSQL + RQ | Preserve existing records and insert/update only new or modified experiences, rounds and questions. |
+| Privacy | Regex PII scrubber | Remove names, email addresses, phone numbers and other unnecessary personal information before processing/storage. |
+| Quality control | Pydantic + pytest | Validate required fields, language, minimum length, spam/anomaly checks and quarantine unusual source spikes. |
+| Monitoring | Logging + Admin UI | Track source status, last update, next update, errors, records added/rejected and collection statistics. |
 
-Treat the terms of each site as the deciding factor, and re-check them before every large collection run, since they change.
+## Data Collection Pipeline
 
----
+```text
+Every 14 days
+      ↓
+Check enabled sources
+      ↓
+Check robots.txt / terms
+      ↓
+Detect content changes
+      ↓
+Collect new/modified content
+      ↓
+Store raw documents
+      ↓
+Extract interview experience
+      ↓
+Validate structured data
+      ↓
+Remove duplicates
+      ↓
+Apply quality/reliability checks
+      ↓
+Approve records
+      ↓
+Update PostgreSQL
+      ↓
+Send to Module 20
 
 ## Module 20: Data Pipeline
 
